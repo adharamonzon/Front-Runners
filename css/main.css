@@ -200,7 +200,9 @@ li.menu a {
   .container {
     display: flex;
   }
-
+  .text-team {
+    padding: 15px 45px 30px 45px;
+  }
   .background {
     display: flex;
     flex-direction: row;
@@ -217,6 +219,12 @@ li.menu a {
   .rectangle {
     transform: translate(-41%, -50%) rotate(45deg);
   }
+  .strengths .justify {
+    padding: 0px 15px 60px 45px;
+  }
+  .weaknesses .justify {
+    padding: 15px 45px 84px 15px;
+  }
 }
 
 @media all and (min-width: 1200px) {
@@ -225,14 +233,25 @@ li.menu a {
   }
 
   .text-team {
-    width: 601px;
-    height: 192px;
-    margin: 0 auto;
-  }
-
-  .justify {
     text-align: center;
-    padding: 0 138px 15px 138px;
+    padding: 15px 300px 60px 299px;
+  }
+  .rectangle {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .header2 {
+    padding: 45px 24px 0 138px;
+  }
+  .strengths .justify {
+    text-align: center;
+    padding: 15px 23px 60px 138px;
+  }
+  .weaknesses .header2 {
+    padding: 45px 138px 0 24px;
+  }
+  .weaknesses .justify {
+    text-align: center;
+    padding: 15px 139px 60px 23px;
   }
 }
 
