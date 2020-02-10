@@ -141,27 +141,20 @@ li.menu a {
 
 /* SECCIÓN EQUIPOS */
 
-.background {
-  background-color: rgba(60, 60, 63, 0.2);
-  margin: 0;
-}
-
 .team {
+  display: inline-block;
   font-family: "Rubik", sans-serif;
   text-align: center;
   color: rgb(35, 196, 196);
   font-size: 24px;
-  margin-bottom: 15px;
-  margin-top: 46px;
+  padding-bottom: 15px;
+  padding-top: 45px;
 }
-
 .text {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   color: #54585a;
-  margin: 0;
   font-size: 16px;
-  padding: 0 15px 15px 15px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -169,8 +162,24 @@ li.menu a {
   letter-spacing: normal;
   text-align: center;
 }
-
-/* Este header2 engloba el estilo tanto de fortalezas como debilidades */
+.text-team {
+  padding: 0 15px 30px 15px;
+  margin: 0;
+}
+.rectangle {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transform: translate(-41%, -50%) rotate(45deg);
+  background-color: white;
+}
+.rectangle-position {
+  text-align: center;
+}
+.background {
+  background-color: rgba(60, 60, 63, 0.2);
+}
 .header2 {
   font-family: "Rubik", sans-serif;
   text-align: center;
@@ -180,18 +189,11 @@ li.menu a {
   padding-bottom: 15px;
   margin: 0;
 }
-
-.rectangle {
-  display: inline-block;
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  transform: translate(-41%, -50%) rotate(45deg);
-  background-color: white;
+.strengths .justify {
+  padding: 0 15px;
 }
-
-.rectangle-position {
-  text-align: center;
+.weaknesses .justify {
+  padding: 0 15px 45px 15px;
 }
 
 @media all and (min-width: 768px) {
@@ -212,12 +214,6 @@ li.menu a {
   .weaknesses {
     flex: 1 0 50%;
   }
-
-  /* He justificado el texto porque me parecia más bonito, se puede quitar */
-  .justify {
-    text-align: justify;
-  }
-
   .rectangle {
     transform: translate(-41%, -50%) rotate(45deg);
   }
