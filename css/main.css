@@ -16,7 +16,7 @@
 
 /* HEADER*/
 .header-container {
-  background: url("./img/frontrunners-team.jpg") center no-repeat;
+  background: url("../img/frontrunners-team.jpg") center no-repeat;
   background-size: cover;
   height: 421px;
   position: relative;
@@ -36,7 +36,7 @@
   background-color: rgba(9, 157, 141, 0.9);
 }
 
-div.name-team > h1 {
+div.name-team>h1 {
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
   line-height: 30px;
@@ -72,7 +72,7 @@ li.menu a {
   max-width: 550px;
 }
 
-.slogan > h3 {
+.slogan>h3 {
   font-family: "Open-sans", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
@@ -133,7 +133,7 @@ li.menu a {
     margin-left: 138px;
   }
 
-  .slogan > h3 {
+  .slogan>h3 {
     font-size: 1.25rem;
     line-height: 24px;
   }
