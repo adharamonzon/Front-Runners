@@ -1,0 +1,461 @@
+/* Reset breve*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PARTE GENERAL */
+.principal-column {
+  width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* HEADER*/
+.header-container {
+  background: url("./img/frontrunners-team.jpg") center no-repeat;
+  background-size: cover;
+  height: 421px;
+  position: relative;
+}
+
+
+/* NAV */
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+}
+
+.name-team {
+  text-align: center;
+  color: white;
+  padding: 15px 0px;
+  background-color: rgba(9, 157, 141, 0.9);
+}
+
+div.name-team>h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+/* MENU */
+ul.menu-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  background-color: rgba(20, 217, 196, 0.9);
+  padding: 8px 0px;
+}
+
+
+li.menu a {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+/* SLOGAN */
+.slogan {
+  position: absolute;
+  bottom: -40px;
+  height: 80px;
+  margin: 0px 15px;
+  padding: 15px;
+  background-color: white;
+  max-width: 550px;
+}
+
+.slogan>h3 {
+  font-family: 'Open-sans', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+/* mediasqueries */
+@media all and (min-width:768px) {
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(9, 157, 141, 0.9);
+  }
+
+  .name-team {
+    text-align: left;
+    background-color: transparent;
+  }
+
+  ul.menu-container {
+    background-color: transparent;
+    padding: 8px 45px;
+  }
+
+  .name-team {
+    padding-left: 45px;
+    text-align: left;
+  }
+
+  ul.menu-container li.menu {
+    padding-left: 18px;
+  }
+
+  .slogan {
+    bottom: 0px;
+    margin-left: 45px;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+}
+
+@media all and (min-width:1200px) {
+  .header-container {
+    height: 450px;
+  }
+
+  ul.menu-container {
+    padding-right: 145px;
+  }
+
+  .name-team {
+    padding-left: 145px;
+  }
+
+  .slogan {
+    margin-left: 138px;
+  }
+
+  .slogan>h3 {
+    font-size: 1.25rem;
+    line-height: 24px;
+  }
+}
+
+/* SECCIÓN EQUIPOS */
+
+.background {
+  background-color: rgba(60, 60, 63, 0.2);
+  margin: 0;
+}
+
+.team {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: rgb(35, 196, 196);
+  font-size: 24px;
+  margin-bottom: 15px;
+  margin-top: 46px;
+}
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #54585a;
+  margin: 0;
+  font-size: 16px;
+  padding: 0 15px 15px 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.justify {}
+
+/* Este header2 engloba el estilo tanto de fortalezas como debilidades */
+.header2 {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: #099d8d;
+  font-size: 22px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.rectangle {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transform: translate(-41%, -50%) rotate(45deg);
+  background-color: white;
+}
+
+.rectangle-position {
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    display: flex;
+  }
+
+  .background {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .strengths {
+    flex: 1 0 50%;
+  }
+
+  .weaknesses {
+    flex: 1 0 50%;
+  }
+
+  /* He justificado el texto porque me parecia más bonito, se puede quitar */
+  .justify {
+    text-align: justify;
+  }
+
+  .rectangle {
+    transform: translate(-41%, -50%) rotate(45deg);
+  }
+}
+
+@media all and (min-width: 1200px) {
+  body {
+    margin: 0;
+  }
+
+  .text-team {
+    width: 601px;
+    height: 192px;
+    margin: 0 auto;
+  }
+
+  .justify {
+    text-align: center;
+    padding: 0 138px 15px 138px;
+  }
+}
+
+/* SECCION ABOUT US */
+.About-us {
+  display: flex;
+  flex-direction: column;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #099d8d;
+  box-sizing: border-box;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.adalabers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 180px;
+  height: 180px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+}
+
+.img-adalabers {
+  width: 100%;
+}
+
+.adalaber-name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+h2 {
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.text-adalabers {
+  width: 290px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #54585a;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.rrss-adalabers {
+  text-align: center;
+  color: #099d8d;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.icon {
+  color: #099d8d;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  height: 250px;
+  border-top: solid 1px #b8b8b9;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.copyright {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #b8b8b9;
+  margin-top: 30px;
+}
+
+.nav-list {
+  opacity: 0.75;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+}
+
+.logo-container {
+  margin: 0 auto;
+  width: 116px;
+  height: 45px;
+  position: absolute;
+  bottom: 45px;
+}
+
+.logo-adalab {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #54585a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media all and (min-width: 768px) {
+  .footer {
+    height: 170px;
+    align-items: flex-start;
+  }
+
+  .copyright {
+    padding-left: 45px;
+  }
+
+  .logo-container {
+    bottom: 60px;
+    padding-left: 45px;
+  }
+
+  .nav-list {
+    width: 324px;
+    height: 90px;
+    align-self: flex-end;
+    right: 45px;
+    top: 24px;
+    align-items: flex-end;
+    text-align: right;
+    line-height: 2.14;
+  }
+
+  .principal-column {
+    padding: 0;
+    width: auto;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .footer {
+    height: 161px;
+    align-items: flex-start;
+  }
+
+  .copyright {
+    padding-left: 138px;
+  }
+
+  .logo-container {
+    bottom: 51px;
+    padding-left: 138px;
+  }
+
+  .nav-list {
+    width: 324px;
+    height: 90px;
+    align-self: flex-end;
+    right: 138px;
+    top: 24px;
+    align-items: flex-end;
+    text-align: right;
+    line-height: 2.14;
+  }
+
+  .principal-column {
+    padding: 0;
+    width: auto;
+  }
+}
