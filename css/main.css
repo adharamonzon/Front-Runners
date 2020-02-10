@@ -8,8 +8,8 @@
 /* PARTE GENERAL */
 .principal-column {
   width: 320px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   text-align: center;
   box-sizing: border-box;
 }
