@@ -22,7 +22,6 @@
   position: relative;
 }
 
-
 /* NAV */
 .nav-bar {
   position: fixed;
@@ -37,8 +36,8 @@
   background-color: rgba(9, 157, 141, 0.9);
 }
 
-div.name-team>h1 {
-  font-family: 'Rubik', sans-serif;
+div.name-team > h1 {
+  font-family: "Rubik", sans-serif;
   font-size: 1rem;
   line-height: 30px;
 }
@@ -53,10 +52,9 @@ ul.menu-container {
   padding: 8px 0px;
 }
 
-
 li.menu a {
   color: white;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
@@ -74,15 +72,15 @@ li.menu a {
   max-width: 550px;
 }
 
-.slogan>h3 {
-  font-family: 'Open-sans', sans-serif;
+.slogan > h3 {
+  font-family: "Open-sans", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 25px;
 }
 
 /* mediasqueries */
-@media all and (min-width:768px) {
+@media all and (min-width: 768px) {
   .nav-bar {
     display: flex;
     align-items: center;
@@ -116,10 +114,9 @@ li.menu a {
     padding: 15px 30px;
     background-color: rgba(255, 255, 255, 0.8);
   }
-
 }
 
-@media all and (min-width:1200px) {
+@media all and (min-width: 1200px) {
   .header-container {
     height: 450px;
   }
@@ -136,7 +133,7 @@ li.menu a {
     margin-left: 138px;
   }
 
-  .slogan>h3 {
+  .slogan > h3 {
     font-size: 1.25rem;
     line-height: 24px;
   }
@@ -172,8 +169,6 @@ li.menu a {
   letter-spacing: normal;
   text-align: center;
 }
-
-.justify {}
 
 /* Este header2 engloba el estilo tanto de fortalezas como debilidades */
 .header2 {
@@ -246,15 +241,12 @@ li.menu a {
 }
 
 /* SECCION ABOUT US */
-.About-us {
+.about-us {
   display: flex;
   flex-direction: column;
   font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
   color: #099d8d;
   box-sizing: border-box;
   margin: 30px auto;
@@ -290,35 +282,15 @@ li.menu a {
 .adalaber-name {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.25;
   letter-spacing: normal;
   color: #000000;
-}
-
-h2 {
-  margin: 0px;
-}
-
-h3 {
-  margin: 0px;
-}
-
-p {
-  margin: 0px;
 }
 
 .text-adalabers {
   width: 290px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
   color: #54585a;
   margin-top: 0px;
   margin-bottom: 15px;
