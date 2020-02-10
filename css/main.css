@@ -288,10 +288,13 @@ li.menu a {
   width: 180px;
   height: 180px;
   border: solid 5px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
 }
 
 .img-adalabers {
   width: 100%;
+  height: 100%;
+  border-radius: 5px;
 }
 
 .adalaber-name {
@@ -324,6 +327,47 @@ li.menu a {
   width: 18px;
   height: 18px;
   text-align: center;
+}
+
+@media all and (min-width: 1200px) {
+  .about-us {
+    margin: 45px auto;
+  }
+  .article {
+    flex-direction: row;
+    margin-bottom: 60px;
+    justify-content: left;
+    margin-left: 138px;
+  }
+  .article:nth-child(even) {
+    flex-direction: row-reverse;
+    margin-bottom: 60px;
+    justify-content: right;
+    margin-right: 138px;
+  }
+  .adalabers {
+    margin-right: 45px;
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+  .adalabers:nth-child(odd) {
+    margin-left: 45px;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  .image {
+    width: 278px;
+    height: 278px;
+  }
+
+  .text-adalabers:nth-child(odd) {
+    width: 439px;
+    text-align: left;
+  }
+  .text-adalabers:nth-child(even) {
+    width: 439px;
+    text-align: right;
+  }
 }
 
 /* FOOTER */
