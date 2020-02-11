@@ -36,7 +36,7 @@
   background-color: rgba(9, 157, 141, 0.9);
 }
 
-div.name-team > h1 {
+div.name-team>h1 {
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
   line-height: 30px;
@@ -45,7 +45,9 @@ div.name-team > h1 {
 /* MENU */
 ul.menu-container {
   display: flex;
-    list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
   background-color: rgba(20, 217, 196, 0.9);
   padding: 8px 0px;
 }
@@ -70,7 +72,7 @@ li.menu a {
   max-width: 550px;
 }
 
-.slogan > h3 {
+.slogan>h3 {
   font-family: "Open-sans", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
@@ -131,7 +133,7 @@ li.menu a {
     margin-left: 138px;
   }
 
-  .slogan > h3 {
+  .slogan>h3 {
     font-size: 1.25rem;
     line-height: 24px;
   }
@@ -148,6 +150,7 @@ li.menu a {
   padding-bottom: 15px;
   padding-top: 45px;
 }
+
 .text {
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -160,10 +163,12 @@ li.menu a {
   letter-spacing: normal;
   text-align: center;
 }
+
 .text-team {
   padding: 0 15px 30px 15px;
   margin: 0;
 }
+
 .rectangle {
   display: inline-block;
   position: absolute;
@@ -172,16 +177,20 @@ li.menu a {
   transform: translate(-41%, -50%) rotate(45deg);
   background-color: white;
 }
+
 .rectangle-position {
   text-align: center;
 }
-.principal-column{
-margin-left: 0;
-margin-right: 0;
-  }
-  .background {
-    background-color: rgba(60, 60, 63, 0.2);
-  }
+
+.principal-column {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.background {
+  background-color: rgba(60, 60, 63, 0.2);
+}
+
 .header2 {
   font-family: "Rubik", sans-serif;
   text-align: center;
@@ -191,9 +200,11 @@ margin-right: 0;
   padding-bottom: 15px;
   margin: 0;
 }
+
 .strengths .justify {
   padding: 0 15px;
- }
+}
+
 .weaknesses .justify {
   padding: 0 15px 45px 15px;
 }
@@ -202,9 +213,11 @@ margin-right: 0;
   .container {
     display: flex;
   }
+
   .text-team {
     padding: 15px 45px 30px 45px;
   }
+
   .background {
     display: flex;
     flex-direction: row;
@@ -219,12 +232,15 @@ margin-right: 0;
   .weaknesses {
     flex: 1 0 50%;
   }
+
   .rectangle {
     transform: translate(-41%, -50%) rotate(45deg);
   }
+
   .strengths .justify {
     padding: 0px 15px 60px 45px;
   }
+
   .weaknesses .justify {
     padding: 15px 45px 84px 15px;
   }
@@ -239,19 +255,24 @@ margin-right: 0;
     text-align: center;
     padding: 15px 300px 60px 299px;
   }
+
   .rectangle {
     transform: translate(-50%, -50%) rotate(45deg);
   }
+
   .header2 {
     padding: 45px 24px 0 138px;
   }
+
   .strengths .justify {
     text-align: center;
     padding: 15px 23px 60px 138px;
   }
+
   .weaknesses .header2 {
     padding: 45px 138px 0 24px;
   }
+
   .weaknesses .justify {
     text-align: center;
     padding: 15px 139px 60px 23px;
@@ -331,39 +352,47 @@ margin-right: 0;
   height: 18px;
   text-align: center;
 }
+
 @media all and (min-width: 768px) {
   .about-us {
     margin: 45px auto;
     font-size: 24px;
   }
+
   .article.even {
     flex-direction: row;
     justify-content: left;
     margin-left: 44px;
   }
+
   .article.odd {
     flex-direction: row-reverse;
     justify-content: right;
     margin-right: 44px;
   }
+
   .adalabers.even {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 31px;
   }
+
   .adalabers.odd {
     margin-right: 31px;
     flex-direction: column;
     align-items: flex-end;
   }
+
   .adalaber-name {
     font-size: 20px;
   }
+
   .text-adalabers.even {
     text-align: left;
     width: 400px;
     font-size: 16px;
   }
+
   .text-adalabers.odd {
     width: 400px;
     font-size: 16px;
@@ -375,6 +404,7 @@ margin-right: 0;
   .about-us {
     margin: 45px auto;
   }
+
   .article.even {
     flex-direction: row;
     margin-bottom: 60px;
@@ -382,24 +412,28 @@ margin-right: 0;
     align-items: flex-start;
     margin-left: 138px;
   }
+
   .article.odd {
     flex-direction: row-reverse;
     margin-bottom: 60px;
     justify-content: right;
     margin-right: 138px;
   }
+
   .adalabers.even {
     margin-left: 45px;
     padding: 0;
     text-align: left;
     align-items: flex-start;
   }
+
   .adalabers.odd {
     margin-right: 45px;
     padding: 0;
     align-items: flex-end;
     text-align: right;
   }
+
   .image {
     width: 278px;
     height: 278px;
@@ -409,6 +443,7 @@ margin-right: 0;
     width: 439px;
     text-align: left;
   }
+
   .text-adalabers.odd {
     width: 439px;
     text-align: right;
