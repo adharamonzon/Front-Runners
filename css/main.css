@@ -36,7 +36,7 @@
   background-color: rgba(9, 157, 141, 0.9);
 }
 
-div.name-team>h1 {
+div.name-team > h1 {
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
   line-height: 30px;
@@ -72,7 +72,7 @@ li.menu a {
   max-width: 550px;
 }
 
-.slogan>h3 {
+.slogan > h3 {
   font-family: "Open-sans", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
@@ -133,7 +133,7 @@ li.menu a {
     margin-left: 138px;
   }
 
-  .slogan>h3 {
+  .slogan > h3 {
     font-size: 1.25rem;
     line-height: 24px;
   }
@@ -141,17 +141,22 @@ li.menu a {
 
 /* SECCIÓN EQUIPOS */
 
+#section-team {
+  position: relative;
+  bottom: 150px;
+}
 .team {
   display: inline-block;
   font-family: "Rubik", sans-serif;
   text-align: center;
   color: rgb(35, 196, 196);
   font-size: 24px;
-  padding-bottom: 15px;
   padding-top: 45px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
 }
 
-.text {
+.text-t {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   color: #54585a;
@@ -244,6 +249,10 @@ li.menu a {
   .weaknesses .justify {
     padding: 15px 45px 84px 15px;
   }
+  #section-team {
+    position: relative;
+    bottom: 110px;
+  }
 }
 
 @media all and (min-width: 1200px) {
@@ -276,6 +285,10 @@ li.menu a {
   .weaknesses .justify {
     text-align: center;
     padding: 15px 139px 60px 23px;
+  }
+  #section-team {
+    position: relative;
+    bottom: 100px;
   }
 }
 
