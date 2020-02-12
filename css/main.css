@@ -294,10 +294,7 @@ li.menu a {
 .img-adalabers {
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-=======
   border-radius: 5px;
->>>>>>> 75ca62d015671fea556d60176f1fb442ef852416
 }
 
 .adalaber-name {
@@ -330,6 +327,13 @@ li.menu a {
   width: 18px;
   height: 18px;
   text-align: center;
+}
+.dot {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-bottom: 1px;
 }
 @media all and (min-width: 768px) {
   .about-us {
