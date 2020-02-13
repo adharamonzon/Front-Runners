@@ -175,15 +175,17 @@ li.menu a {
 
 .rectangle {
   display: inline-block;
-  position: absolute;
+  position: relative;
   width: 30px;
   height: 30px;
-  transform: translate(-41%, -50%) rotate(45deg);
+  top: 20px;
+  transform: rotate(45deg);
   background-color: white;
 }
 
 .rectangle-position {
   text-align: center;
+  position: relative;
 }
 
 .principal-column {
@@ -238,7 +240,7 @@ li.menu a {
   }
 
   .rectangle {
-    transform: translate(-41%, -50%) rotate(45deg);
+    top: 20px;
   }
 
   .strengths .justify {
@@ -265,7 +267,7 @@ li.menu a {
   }
 
   .rectangle {
-    transform: translate(-50%, -50%) rotate(45deg);
+    top: 20px;
   }
 
   .header2 {
