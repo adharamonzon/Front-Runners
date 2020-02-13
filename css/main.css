@@ -19,7 +19,6 @@
   background: url("../img/frontrunners-team.jpg") center center no-repeat;
   background-size: cover;
   height: 421px;
-  max-width: 100%;
   position: relative;
 }
 
@@ -66,14 +65,14 @@ li.menu a {
 .slogan {
   position: absolute;
   bottom: -40px;
-  height: 80px;
+  /* height: 80px; */
   margin: 0px 15px;
   padding: 15px;
   background-color: white;
   max-width: 550px;
 }
 
-.slogan > h3 {
+.slogan>h3 {
   font-family: "Open-sans", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
@@ -139,7 +138,7 @@ li.menu a {
     margin-left: 138px;
   }
 
-  .slogan > h3 {
+  .slogan>h3 {
     font-size: 1.25rem;
     line-height: 24px;
   }
