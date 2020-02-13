@@ -465,7 +465,6 @@ li.menu a {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.43;
-  text-transform: uppercase;
   text-align: center;
   color: #b8b8b9;
   margin-top: 30px;
@@ -483,9 +482,6 @@ li.menu a {
   align-items: center;
   position: absolute;
   top: 70px;
-}
-.nav-list a{
-  text-transform: uppercase;
 }
 
 .logo-container {
