@@ -16,9 +16,10 @@
 
 /* HEADER*/
 .header-container {
-  background: url("../img/frontrunners-team.jpg") center no-repeat;
+  background: url("../img/frontrunners-team.jpg") center center no-repeat;
   background-size: cover;
   height: 421px;
+  max-width: 100%;
   position: relative;
 }
 
@@ -31,15 +32,15 @@
 
 .name-team {
   text-align: center;
-  color: white;
   padding: 15px 0px;
   background-color: rgba(9, 157, 141, 0.9);
 }
 
-div.name-team>h1 {
+div.name-team a {
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
   line-height: 30px;
+  color: white;
 }
 
 /* MENU */
@@ -72,11 +73,16 @@ li.menu a {
   max-width: 550px;
 }
 
-.slogan>h3 {
+.slogan > h3 {
   font-family: "Open-sans", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 25px;
+}
+
+/* STYLE UPPERCASE */
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* mediasqueries */
@@ -133,7 +139,7 @@ li.menu a {
     margin-left: 138px;
   }
 
-  .slogan>h3 {
+  .slogan > h3 {
     font-size: 1.25rem;
     line-height: 24px;
   }
