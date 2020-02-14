@@ -16,7 +16,7 @@
 
 /* HEADER*/
 .header-container {
-  background: url("../img/frontrunners-team.jpg") center no-repeat;
+  background: url("../img/frontrunners-team.jpg") center center no-repeat;
   background-size: cover;
   height: 421px;
   position: relative;
@@ -31,15 +31,15 @@
 
 .name-team {
   text-align: center;
-  color: white;
   padding: 15px 0px;
   background-color: rgba(9, 157, 141, 0.9);
 }
 
-div.name-team > h1 {
+div.name-team a {
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
   line-height: 30px;
+  color: white;
 }
 
 /* MENU */
@@ -65,7 +65,7 @@ li.menu a {
 .slogan {
   position: absolute;
   bottom: -40px;
-  height: 80px;
+  /* height: 80px; */
   margin: 0px 15px;
   padding: 15px;
   background-color: white;
@@ -77,6 +77,11 @@ li.menu a {
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 25px;
+}
+
+/* STYLE UPPERCASE */
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* mediasqueries */
