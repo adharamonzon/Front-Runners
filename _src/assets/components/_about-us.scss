@@ -9,84 +9,72 @@
   box-sizing: border-box;
   margin: 30px auto;
   text-align: center;
-}
-
-.about-us-h2 {
-  text-transform: uppercase;
-  font-size: 24px;
-}
-.about-us-link-interno {
-  color: transparent;
-  position: relative;
-  bottom: 10em;
+  .title-about-us {
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  .link-interno {
+    color: transparent;
+    position: relative;
+    bottom: 10em;
+  }
 }
 
 .article {
   display: flex;
   flex-direction: column;
-  flex-wrap: no-wrap;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
-
-.adalabers {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .image {
   width: 180px;
   height: 180px;
   border: solid 5px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
+  .picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
 }
-
-.img-adalabers {
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-}
-
-.adalaber-name {
+.adalabers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  line-height: 2.25;
-  letter-spacing: normal;
-  color: #000000;
-}
 
-.text-adalabers {
-  width: 290px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  color: #54585a;
-  margin-top: 0px;
-  margin-bottom: 15px;
-  text-align: center;
+  .name {
+    font-size: 20px;
+    line-height: 2.25;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .text {
+    width: 290px;
+    font-size: 14px;
+    color: #54585a;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .rrss {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #099d8d;
+    font-size: 3px;
+  }
+  .icon {
+    color: #099d8d;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+  }
 }
-
-.rrss-adalabers {
-  text-align: center;
-  color: #099d8d;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.icon {
-  color: #099d8d;
-  width: 18px;
-  height: 18px;
-  text-align: center;
-}
-.dot {
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 1px;
-  margin-right: 1px;
-  padding-bottom: 1px;
+.rrss a::after {
+  content: "aaaa";
 }
 @media all and (min-width: 768px) {
   .about-us {
