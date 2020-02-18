@@ -4,81 +4,74 @@
   position: relative;
   bottom: 150px;
 }
-.team {
-  display: inline-block;
-  font-family: "Rubik", sans-serif;
-  text-align: center;
-  color: #14d9c4;
-  font-size: 24px;
-  padding-top: 45px;
-  padding-bottom: 15px;
-}
-
-.text-t {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  color: #54585a;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-}
-
-.text-team {
-  padding: 0 15px 30px 15px;
-  margin: 0;
-}
-
-.rectangle {
-  display: inline-block;
-  position: relative;
-  width: 30px;
-  height: 30px;
-  top: 20px;
-  transform: rotate(45deg);
-  background-color: white;
+.principal-column {
+  padding-left: 0;
+  padding-right: 0;
+  .team {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    color: #14d9c4;
+    font-size: 24px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .text-t {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: #54585a;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    .text-team {
+      padding: 0 15px 30px 15px;
+      margin: 0;
+    }
+  }
 }
 
 .rectangle-position {
   text-align: center;
   position: relative;
-}
-
-.principal-column {
-  padding-left: 0;
-  padding-right: 0;
+  .rectangle {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    transform: rotate(45deg);
+    background-color: white;
+  }
 }
 
 .background {
   background-color: rgba(60, 60, 63, 0.2);
-}
-
-.header2 {
-  font-family: "Rubik", sans-serif;
-  text-align: center;
-  color: #099d8d;
-  font-size: 22px;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  margin: 0;
-}
-
-.strengths .justify {
-  padding: 0 15px;
-}
-
-.weaknesses .justify {
-  padding: 0 15px 45px 15px;
+  .header2 {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    color: #099d8d;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin: 0;
+  }
+  .strengths .justify {
+    padding: 0 15px;
+  }
+  .weaknesses .justify {
+    padding: 0 15px 45px 15px;
+  }
 }
 
 @media all and (min-width: 768px) {
-  .container {
-    display: flex;
+  .principal-column {
+    margin-left: 0;
+    margin-right: 0;
   }
-
   .text-team {
     padding: 15px 45px 30px 45px;
   }
@@ -89,10 +82,7 @@
     flex-wrap: nowrap;
     margin: 0px;
   }
-  .principal-column {
-    margin-left: 0;
-    margin-right: 0;
-  }
+
   .strengths {
     flex: 1 0 50%;
   }
