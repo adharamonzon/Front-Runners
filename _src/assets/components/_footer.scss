@@ -14,20 +14,19 @@
     height: 161px;
     align-items: flex-start;
   }
-}
-
-.copyright {
-  font-family: "Open Sans", sans-serif; //candidato a variable
-  font-size: 14px; //candidato a variable
-  line-height: 1.43; //candidato a variable
-  text-align: center; //candidato a variable
-  color: #b8b8b9; //candidato a variable
-  margin-top: 30px;
-  @media all and (min-width: 768px) {
-    padding-left: 45px;
-  }
-  @media all and (min-width: 1200px) {
-    padding-left: 138px;
+  .copyright {
+    font-family: "Open Sans", sans-serif; //candidato a variable
+    font-size: 14px; //candidato a variable
+    line-height: 1.43; //candidato a variable
+    text-align: center; //candidato a variable
+    color: #b8b8b9; //candidato a variable
+    margin-top: 30px;
+    @media all and (min-width: 768px) {
+      padding-left: 45px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-left: 138px;
+    }
   }
 }
 
