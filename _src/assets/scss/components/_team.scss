@@ -33,7 +33,6 @@
     }
   }
 }
-
 .rectangle-position {
   text-align: center;
   position: relative;
@@ -45,15 +44,15 @@
     top: 20px;
     transform: rotate(45deg);
     background-color: white;
-    &:hover{
-      color: #14d9c4;
-    }
-    }
   }
 }
 
 .background {
   background-color: rgba(60, 60, 63, 0.2);
+  transition: background-color ease-out 1s;
+  &:hover {
+    background-color: white;
+  }
   .header2 {
     font-family: "Rubik", sans-serif;
     text-align: center;
@@ -103,7 +102,7 @@
     padding: 0px 15px 60px 45px;
   }
 
-  .weaknesses .justify {
+  .background .weaknesses .justify {
     padding: 15px 45px 84px 15px;
   }
   #section-team {
