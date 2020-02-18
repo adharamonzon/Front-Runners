@@ -68,10 +68,10 @@
 }
 
 @media all and (min-width: 768px) {
-  .container {
-    display: flex;
+  .principal-column {
+    margin-left: 0;
+    margin-right: 0;
   }
-
   .text-team {
     padding: 15px 45px 30px 45px;
   }
@@ -82,10 +82,7 @@
     flex-wrap: nowrap;
     margin: 0px;
   }
-  .principal-column {
-    margin-left: 0;
-    margin-right: 0;
-  }
+
   .strengths {
     flex: 1 0 50%;
   }
