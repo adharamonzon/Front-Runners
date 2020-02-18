@@ -71,112 +71,115 @@
     width: 18px;
     height: 18px;
     text-align: center;
-  }
-}
-.rrss a::after {
-  content: "aaaa";
-}
-@media all and (min-width: 768px) {
-  .about-us {
-    margin: 45px auto;
-    font-size: 24px;
-  }
-  .about-us-link-interno {
-    color: transparent;
-    position: relative;
-    bottom: 5em;
-  }
-  .article.even {
-    flex-direction: row;
-    justify-content: left;
-    margin-left: 44px;
+    .rrss a::after {
+      content: "·";
+      font-size: x-large;
+      color: #099d8d;
+    }
   }
 
-  .article.odd {
-    flex-direction: row-reverse;
-    justify-content: right;
-    margin-right: 44px;
+  @media all and (min-width: 768px) {
+    .about-us {
+      margin: 45px auto;
+      font-size: 24px;
+    }
+    .about-us-link-interno {
+      color: transparent;
+      position: relative;
+      bottom: 5em;
+    }
+    .article.even {
+      flex-direction: row;
+      justify-content: left;
+      margin-left: 44px;
+    }
+
+    .article.odd {
+      flex-direction: row-reverse;
+      justify-content: right;
+      margin-right: 44px;
+    }
+
+    .adalabers.even {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 31px;
+    }
+
+    .adalabers.odd {
+      margin-right: 31px;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .adalaber-name {
+      font-size: 20px;
+    }
+
+    .text-adalabers.even {
+      text-align: left;
+      width: 400px;
+      font-size: 16px;
+    }
+
+    .text-adalabers.odd {
+      width: 400px;
+      font-size: 16px;
+      text-align: right;
+    }
   }
 
-  .adalabers.even {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 31px;
-  }
+  @media all and (min-width: 1200px) {
+    .about-us {
+      margin: 45px auto;
+    }
+    .about-us-link-interno {
+      color: transparent;
+      position: relative;
+      bottom: 5em;
+    }
+    .article.even {
+      flex-direction: row;
+      margin-bottom: 60px;
+      justify-content: left;
+      align-items: flex-start;
+      margin-left: 138px;
+    }
 
-  .adalabers.odd {
-    margin-right: 31px;
-    flex-direction: column;
-    align-items: flex-end;
-  }
+    .article.odd {
+      flex-direction: row-reverse;
+      margin-bottom: 60px;
+      justify-content: right;
+      margin-right: 138px;
+    }
 
-  .adalaber-name {
-    font-size: 20px;
-  }
+    .adalabers.even {
+      margin-left: 45px;
+      padding: 0;
+      text-align: left;
+      align-items: flex-start;
+    }
 
-  .text-adalabers.even {
-    text-align: left;
-    width: 400px;
-    font-size: 16px;
-  }
+    .adalabers.odd {
+      margin-right: 45px;
+      padding: 0;
+      align-items: flex-end;
+      text-align: right;
+    }
 
-  .text-adalabers.odd {
-    width: 400px;
-    font-size: 16px;
-    text-align: right;
-  }
-}
+    .image {
+      width: 278px;
+      height: 278px;
+    }
 
-@media all and (min-width: 1200px) {
-  .about-us {
-    margin: 45px auto;
-  }
-  .about-us-link-interno {
-    color: transparent;
-    position: relative;
-    bottom: 5em;
-  }
-  .article.even {
-    flex-direction: row;
-    margin-bottom: 60px;
-    justify-content: left;
-    align-items: flex-start;
-    margin-left: 138px;
-  }
+    .text-adalabers.even {
+      width: 439px;
+      text-align: left;
+    }
 
-  .article.odd {
-    flex-direction: row-reverse;
-    margin-bottom: 60px;
-    justify-content: right;
-    margin-right: 138px;
-  }
-
-  .adalabers.even {
-    margin-left: 45px;
-    padding: 0;
-    text-align: left;
-    align-items: flex-start;
-  }
-
-  .adalabers.odd {
-    margin-right: 45px;
-    padding: 0;
-    align-items: flex-end;
-    text-align: right;
-  }
-
-  .image {
-    width: 278px;
-    height: 278px;
-  }
-
-  .text-adalabers.even {
-    width: 439px;
-    text-align: left;
-  }
-
-  .text-adalabers.odd {
-    width: 439px;
-    text-align: right;
+    .text-adalabers.odd {
+      width: 439px;
+      text-align: right;
+    }
   }
 }
