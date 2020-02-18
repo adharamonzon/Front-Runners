@@ -7,9 +7,6 @@
 .principal-column {
   padding-left: 0;
   padding-right: 0;
-}
-
-.container-team {
   .team {
     display: inline-block;
     font-family: "Rubik", sans-serif;
@@ -30,17 +27,9 @@
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-
     .text-team {
       padding: 0 15px 30px 15px;
       margin: 0;
-
-      .strengths .justify {
-        padding: 0 15px;
-      }
-      .weaknesses .justify {
-        padding: 0 15px 45px 15px;
-      }
     }
   }
 }
@@ -70,8 +59,14 @@
     padding-bottom: 15px;
     margin: 0;
   }
+  .strengths .justify {
+    padding: 0 15px;
+  }
+  .weaknesses .justify {
+    padding: 0 15px 45px 15px;
+  }
 }
-  
+
 @media all and (min-width: 768px) {
   .container {
     display: flex;
@@ -151,3 +146,4 @@
     position: relative;
     bottom: 100px;
   }
+}
