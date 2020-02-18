@@ -45,6 +45,10 @@
     top: 20px;
     transform: rotate(45deg);
     background-color: white;
+    &:hover{
+      color: #14d9c4;
+    }
+    }
   }
 }
 
@@ -95,7 +99,7 @@
     top: 20px;
   }
 
-  .strengths .justify {
+  .background .strengths .justify {
     padding: 0px 15px 60px 45px;
   }
 
