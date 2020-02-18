@@ -33,6 +33,13 @@
     .text-team {
       padding: 0 15px 30px 15px;
       margin: 0;
+
+      .strengths .justify {
+        padding: 0 15px;
+      }
+      .weaknesses .justify {
+        padding: 0 15px 45px 15px;
+      }
     }
   }
 }
@@ -62,14 +69,7 @@
     padding-bottom: 15px;
     margin: 0;
   }
-  .strengths .justify {
-    padding: 0 15px;
-  }
-  .weaknesses .justify {
-    padding: 0 15px 45px 15px;
-  }
-}
-
+  
 @media all and (min-width: 768px) {
   .container {
     display: flex;
