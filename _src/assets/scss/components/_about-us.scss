@@ -62,11 +62,6 @@
     color: $colorPrimary;
     font-size: 3px;
   }
-  .icon {
-    width: 18px;
-    height: 18px;
-    text-align: $textCenter;
-  }
   .rrss a {
     text-decoration: none;
   }
@@ -78,8 +73,21 @@
   .rrss a:last-child::after {
     content: none;
   }
+  .icon {
+    width: 18px;
+    height: 18px;
+    text-align: $textCenter;
+    animation: rotation 3s linear infinite;
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate (360deg);
+    }
+  }
 }
-
 @media all and (min-width: 768px) {
   .about-us {
     margin: 45px auto;
