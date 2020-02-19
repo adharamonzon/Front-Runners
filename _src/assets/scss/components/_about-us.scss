@@ -19,14 +19,7 @@
     position: relative;
     bottom: 10em;
   }
-  @media all and (min-width: 768px) {
-    margin: 45px auto;
-    font-size: 24px;
 
-    .link-interno {
-      bottom: 5em;
-    }
-  }
 }
 
 .article {
@@ -93,7 +86,15 @@
 }
 
 @media all and (min-width: 768px) {
-   article:nth-child(even) {
+  .about us { 
+    margin: 45px auto;
+    font-size: 24px;
+    .link-interno {
+      bottom: 5em;
+    }
+  }
+  
+  article:nth-child(even) {
     flex-direction: row;
     justify-content: left;
     margin-left: 44px;
