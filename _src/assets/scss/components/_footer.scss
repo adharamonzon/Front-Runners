@@ -1,0 +1,93 @@
+.footer {
+  height: 250px;
+  border-top: solid 1px #b8b8b9;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  @media all and (min-width: 768px) {
+    height: 170px;
+    align-items: flex-start;
+  }
+  @media all and (min-width: 1200px) {
+    height: 161px;
+    align-items: flex-start;
+  }
+  .copyright {
+    font-family: "Open Sans", sans-serif; //candidato a variable
+    font-size: 14px; //candidato a variable
+    line-height: 1.43; //candidato a variable
+    text-align: center; //candidato a variable
+    color: #b8b8b9; //candidato a variable
+    margin-top: 30px;
+    @media all and (min-width: 768px) {
+      padding-left: 45px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-left: 138px;
+    }
+  }
+}
+
+.nav-list {
+  opacity: 0.75; //candidato a variable
+  font-family: "Open Sans", sans-serif; //candidato a variable
+  font-size: 14px; //candidato a variable
+  font-weight: 600; //candidato a variable
+  line-height: 1.43; //candidato a variable
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+  @media all and (min-width: 768px) {
+    width: 324px;
+    height: 90px;
+    align-self: flex-end;
+    right: 45px;
+    top: 24px;
+    align-items: flex-end;
+    text-align: right;
+    line-height: 2.14;
+  }
+  @media all and (min-width: 1200px) {
+    right: 138px;
+  }
+  ul {
+    list-style: none; //candidato a variable
+    padding: 0;
+    margin: 0;
+    a {
+      text-decoration: none; //candidato a variable
+      color: #54585a; //candidato a variable
+    }
+  }
+}
+
+.logo-container {
+  margin: 0 auto;
+  width: 116px;
+  height: 45px;
+  position: absolute;
+  bottom: 45px;
+  @media all and (min-width: 768px) {
+    bottom: 60px;
+    left: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    bottom: 51px;
+    left: 138px;
+  }
+  .logo-adalab {
+    width: 100%;
+  }
+}
+
+.principal-column {
+  @media all and (min-width: 768px) {
+    padding: 0;
+    width: auto;
+  }
+}

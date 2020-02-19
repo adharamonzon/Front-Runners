@@ -4,56 +4,55 @@
   position: relative;
   bottom: 150px;
 }
-.team {
-  display: inline-block;
-  font-family: "Rubik", sans-serif;
-  text-align: center;
-  color: #14d9c4;
-  font-size: 24px;
-  padding-top: 45px;
-  padding-bottom: 15px;
-}
-
-.text-t {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  color: #54585a;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-}
-
-.text-team {
-  padding: 0 15px 30px 15px;
-  margin: 0;
-}
-
-.rectangle {
-  display: inline-block;
-  position: relative;
-  width: 30px;
-  height: 30px;
-  top: 20px;
-  transform: rotate(45deg);
-  background-color: white;
-}
-
-.rectangle-position {
-  text-align: center;
-  position: relative;
-}
-
 .principal-column {
   padding-left: 0;
   padding-right: 0;
+  .team {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    color: #14d9c4;
+    font-size: 24px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .text-t {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: #54585a;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    .text-team {
+      padding: 0 15px 30px 15px;
+      margin: 0;
+    }
+  }
+}
+.rectangle-position {
+  text-align: center;
+  position: relative;
+  .rectangle {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    transform: rotate(45deg);
+    background-color: white;
+  }
 }
 
 .background {
   background-color: rgba(60, 60, 63, 0.2);
+  transition: background-color ease-out 1s;
+  &:hover {
+    background-color: white;
+  }
 }
 
 .header2 {
@@ -64,21 +63,22 @@
   padding-top: 30px;
   padding-bottom: 15px;
   margin: 0;
-}
-
-.strengths .justify {
-  padding: 0 15px;
-}
-
-.weaknesses .justify {
-  padding: 0 15px 45px 15px;
+  &:hover {
+    font-size: 28px;
+  }
+  .strengths .justify {
+    padding: 0 15px;
+  }
+  .weaknesses .justify {
+    padding: 0 15px 45px 15px;
+  }
 }
 
 @media all and (min-width: 768px) {
-  .container {
-    display: flex;
+  .principal-column {
+    margin-left: 0;
+    margin-right: 0;
   }
-
   .text-team {
     padding: 15px 45px 30px 45px;
   }
@@ -89,10 +89,7 @@
     flex-wrap: nowrap;
     margin: 0px;
   }
-  .principal-column {
-    margin-left: 0;
-    margin-right: 0;
-  }
+
   .strengths {
     flex: 1 0 50%;
   }
@@ -105,11 +102,11 @@
     top: 20px;
   }
 
-  .strengths .justify {
+  .background .strengths .justify {
     padding: 0px 15px 60px 45px;
   }
 
-  .weaknesses .justify {
+  .background .weaknesses .justify {
     padding: 15px 45px 84px 15px;
   }
   #section-team {
