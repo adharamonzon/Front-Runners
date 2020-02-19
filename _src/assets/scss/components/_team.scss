@@ -4,33 +4,44 @@
   position: relative;
   bottom: 150px;
 }
+
 .principal-column {
   padding-left: 0;
   padding-right: 0;
-  .team {
-    display: inline-block;
-    font-family: "Rubik", sans-serif;
-    text-align: center;
-    color: #14d9c4;
-    font-size: 24px;
-    padding-top: 45px;
-    padding-bottom: 15px;
-    text-transform: uppercase;
+  .strengths .justify {
+    padding: 0 15px;
   }
-  .text-t {
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
-    color: #54585a;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    .text-team {
-      padding: 0 15px 30px 15px;
-      margin: 0;
-    }
+  .weaknesses .justify {
+    padding: 0 15px 45px 15px;
+  }
+}
+
+.team {
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: #14d9c4;
+  font-size: 24px;
+  padding-top: 45px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.text-t {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #54585a;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  .text-team {
+    padding: 0 15px 30px 15px;
+    margin: 0;
+  }
+  .justify {
+    padding: 0 15px;
   }
 }
 
@@ -50,6 +61,10 @@
 
 .background {
   background-color: rgba(60, 60, 63, 0.2);
+  transition: background-color ease-out 1s;
+  &:hover {
+    background-color: white;
+  }
   .header2 {
     font-family: "Rubik", sans-serif;
     text-align: center;
@@ -58,12 +73,9 @@
     padding-top: 30px;
     padding-bottom: 15px;
     margin: 0;
-  }
-  .strengths .justify {
-    padding: 0 15px;
-  }
-  .weaknesses .justify {
-    padding: 0 15px 45px 15px;
+    &:hover {
+      font-size: 28px;
+    }
   }
 }
 
@@ -72,7 +84,7 @@
     margin-left: 0;
     margin-right: 0;
   }
-  .text-team {
+  .text-t .text-team {
     padding: 15px 45px 30px 45px;
   }
 
@@ -95,11 +107,11 @@
     top: 20px;
   }
 
-  .strengths .justify {
+  .background .strengths .justify {
     padding: 0px 15px 60px 45px;
   }
 
-  .weaknesses .justify {
+  .background .weaknesses .justify {
     padding: 15px 45px 84px 15px;
   }
   #section-team {
@@ -113,9 +125,9 @@
     margin: 0;
   }
 
-  .text-team {
+  .text-t .text-team {
     text-align: center;
-    padding: 15px 300px 60px 299px;
+    padding: 15px 302px 60px 300px;
   }
 
   .rectangle {
@@ -126,7 +138,7 @@
     padding: 45px 24px 0 138px;
   }
 
-  .strengths .justify {
+  .background .strengths .justify {
     text-align: center;
     padding: 15px 23px 60px 138px;
   }
@@ -135,12 +147,12 @@
     padding: 45px 138px 0 24px;
   }
 
-  .weaknesses .justify {
+  .background .weaknesses .justify {
     text-align: center;
     padding: 15px 139px 60px 23px;
   }
   #section-team {
     position: relative;
-    bottom: 100px;
+    bottom: 120px;
   }
 }

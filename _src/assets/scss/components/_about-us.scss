@@ -79,46 +79,54 @@
     height: 18px;
     text-align: center;
   }
-  
+  .rrss a {
+    text-decoration: none;
+  }
   .rrss a::after {
     content: "·";
     font-size: x-large;
     color: #099d8d;
   }
+  .rrss a:last-child::after {
+    content: none;
+  }
 }
 
 @media all and (min-width: 768px) {
-  
-  article:nth-child(even) {
+   article:nth-child(even) {
     flex-direction: row;
     justify-content: left;
     margin-left: 44px;
     .adalabers {
       margin-left: 45px;
       padding: 0;
-      align-items: flex-start;
       text-align: left;
-    }
+   }
+   .name {
+    font-size: 20px;
+    text-align: left;
+  }
   }
 
   article:nth-child(odd) {
     flex-direction: row-reverse;
     justify-content: right;
     margin-right: 44px;
-  }
+  
   .adalabers{
     margin-right: 45px;
     padding: 0;
-    justify-content: left;
     text-align: right;
   }
-
   .name {
     font-size: 20px;
     text-align: right;
   }
+ }
+
+
    .text {
     width: 400px;
     font-size: 16px;
   }
-  }
+}
