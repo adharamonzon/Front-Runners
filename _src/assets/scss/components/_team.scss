@@ -53,15 +53,20 @@
   &:hover {
     background-color: white;
   }
-  .header2 {
-    font-family: "Rubik", sans-serif;
-    text-align: center;
-    color: #099d8d;
-    font-size: 22px;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    margin: 0;
+}
+
+.header2 {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: #099d8d;
+  font-size: 22px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin: 0;
+  &:hover {
+    font-size: 28px;
   }
+}
   .strengths .justify {
     padding: 0 15px;
   }
