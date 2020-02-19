@@ -10,11 +10,25 @@
     text-transform: $textUppercase;
     font-size: 24px;
     color: $colorPrimary;
+    animation-name: title-about-us-animation;
+    animation-duration: 5s;
   }
   .link-interno {
     color: transparent;
     position: relative;
     bottom: 10em;
+  }
+}
+
+@keyframes title-about-us-animation{
+  from{
+    transform: translate(60px, 0px);
+    color: transparent;
+    transform: scale(3);
+  }
+  to {
+    transform: translate(0px, 0px);
+    color: $colorPrimary;
   }
 }
 
