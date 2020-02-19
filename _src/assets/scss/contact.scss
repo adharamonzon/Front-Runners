@@ -1,0 +1,58 @@
+@import "core/_reset";
+
+/* PARTE GENERAL */
+.principal-column {
+  width: 100wh;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+@import "components/_header";
+
+/* HEADER*/
+.header-container {
+  background: url("../images/frontrunners-team-contact2.jpg") center center
+    no-repeat;
+  background-size: cover;
+  height: 300px;
+  /* position: relative; */
+}
+.slogan {
+  display: none;
+}
+
+section.contact-us {
+  padding: 60px 15px 60px 15px;
+}
+.info-contact {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 442px;
+}
+.info-contact h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  color: #14d9c4;
+}
+.info-contact p.contact-text {
+  padding: 15px 20px 20px 20px;
+}
+.text-small span.color {
+  color: #14d9c4;
+}
+@media all and (min-width: 1200px) {
+  .header-container {
+    height: 400px;
+  }
+  ul.menu-container {
+    padding-right: 145px;
+  }
+  .info-contact {
+    max-width: 600px;
+  }
+}
+@import "components/_footer";
