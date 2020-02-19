@@ -1,7 +1,6 @@
 .footer {
   height: 250px;
-  border-top: solid 1px #b8b8b9;
-  background-color: #ffffff;
+  border-top: solid 1px $colorFooter;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,12 +14,13 @@
     align-items: flex-start;
   }
   .copyright {
-    font-family: "Open Sans", sans-serif; //candidato a variable
-    font-size: 14px; //candidato a variable
-    line-height: 1.43; //candidato a variable
-    text-align: center; //candidato a variable
-    color: #b8b8b9; //candidato a variable
+    font-family: $fontText-02; 
+    font-size: 14px; 
+    line-height: 1.43; 
+    text-align: $textCenter; 
+    color: $colorFooter; 
     margin-top: 30px;
+    text-transform: $textUppercase;
     @media all and (min-width: 768px) {
       padding-left: 45px;
     }
@@ -31,11 +31,11 @@
 }
 
 .nav-list {
-  opacity: 0.75; //candidato a variable
-  font-family: "Open Sans", sans-serif; //candidato a variable
-  font-size: 14px; //candidato a variable
-  font-weight: 600; //candidato a variable
-  line-height: 1.43; //candidato a variable
+  opacity: 0.75;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -56,13 +56,17 @@
     right: 138px;
   }
   ul {
-    list-style: none; //candidato a variable
+    list-style: none; 
     padding: 0;
     margin: 0;
-    a {
-      text-decoration: none; //candidato a variable
-      color: #54585a; //candidato a variable
+    li {
+      text-transform: $textUppercase;
+      a {
+        text-decoration: none; 
+        color: $colorText; 
+      }
     }
+
   }
 }
 
