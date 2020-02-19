@@ -18,18 +18,18 @@
 
 .team {
   display: inline-block;
-  font-family: "Rubik", sans-serif;
-  text-align: center;
-  color: #14d9c4;
+  font-family: $fontText-01;
+  text-align: $textCenter;
+  color: $colorSecundary;
   font-size: 24px;
   padding-top: 45px;
   padding-bottom: 15px;
-  text-transform: uppercase;
+  text-transform: $textUppercase;
 }
 .text-t {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  color: #54585a;
+  font-family: $fontText-02;
+  text-align: $textCenter;
+  color: $colorText;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -46,7 +46,7 @@
 }
 
 .rectangle-position {
-  text-align: center;
+  text-align: $textCenter;
   position: relative;
   .rectangle {
     display: inline-block;
@@ -55,7 +55,7 @@
     height: 30px;
     top: 20px;
     transform: rotate(45deg);
-    background-color: white;
+    background-color: $colorTertiary;
   }
 }
 
@@ -63,12 +63,12 @@
   background-color: rgba(60, 60, 63, 0.2);
   transition: background-color ease-out 1s;
   &:hover {
-    background-color: white;
+    background-color: $colorTertiary;
   }
   .header2 {
-    font-family: "Rubik", sans-serif;
-    text-align: center;
-    color: #099d8d;
+    font-family: $fontText-01;
+    text-align: $textCenter;
+    color: $colorPrimary;
     font-size: 22px;
     padding-top: 30px;
     padding-bottom: 15px;
@@ -126,7 +126,7 @@
   }
 
   .text-t .text-team {
-    text-align: center;
+    text-align: $textCenter;
     padding: 15px 302px 60px 300px;
   }
 
@@ -139,7 +139,7 @@
   }
 
   .background .strengths .justify {
-    text-align: center;
+    text-align: $textCenter;
     padding: 15px 23px 60px 138px;
   }
 
@@ -148,7 +148,7 @@
   }
 
   .background .weaknesses .justify {
-    text-align: center;
+    text-align: $textCenter;
     padding: 15px 139px 60px 23px;
   }
   #section-team {
