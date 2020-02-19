@@ -20,8 +20,8 @@
   }
 }
 
-@keyframes title-about-us-animation{
-  from{
+@keyframes title-about-us-animation {
+  from {
     transform: translate(60px, 0px);
     color: transparent;
     transform: scale(3);
@@ -92,6 +92,9 @@
     height: 18px;
     text-align: $textCenter;
     animation: rotation 3s linear infinite;
+    &:hover {
+      transform: rotate(360deg);
+    }
   }
   @keyframes rotation {
     0% {
