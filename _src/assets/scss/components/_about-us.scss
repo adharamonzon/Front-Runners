@@ -2,30 +2,19 @@
 .about-us {
   display: flex;
   flex-direction: column;
-  font-family: "Rubik", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  color: #099d8d;
+  font-family: $fontText-01;
   box-sizing: border-box;
   margin: 30px auto;
-  text-align: center;
 
   .title-about-us {
-    text-transform: uppercase;
+    text-transform: $textUppercase;
     font-size: 24px;
+    color: $colorPrimary;
   }
   .link-interno {
     color: transparent;
     position: relative;
     bottom: 10em;
-  }
-  @media all and (min-width: 768px) {
-    margin: 45px auto;
-    font-size: 24px;
-
-    .link-interno {
-      bottom: 5em;
-    }
   }
 }
 
@@ -52,7 +41,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: $fontText-02;
 
   .name {
     font-size: 20px;
@@ -63,21 +52,20 @@
   .text {
     width: 290px;
     font-size: 14px;
-    color: #54585a;
+    color: $colorText;
     margin-top: 0px;
     margin-bottom: 15px;
   }
   .rrss {
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #099d8d;
+    color: $colorPrimary;
     font-size: 3px;
   }
   .icon {
-    color: #099d8d;
     width: 18px;
     height: 18px;
-    text-align: center;
+    text-align: $textCenter;
   }
   .rrss a {
     text-decoration: none;
@@ -85,7 +73,7 @@
   .rrss a::after {
     content: "·";
     font-size: x-large;
-    color: #099d8d;
+    color: $colorPrimary;
   }
   .rrss a:last-child::after {
     content: none;
@@ -93,40 +81,55 @@
 }
 
 @media all and (min-width: 768px) {
-   article:nth-child(even) {
+  .about-us {
+    margin: 45px auto;
+    .link-interno {
+      bottom: 8em;
+    }
+  }
+
+  article:nth-child(even) {
     flex-direction: row;
     justify-content: left;
     margin-left: 44px;
     .adalabers {
-      margin-left: 45px;
-      padding: 0;
+      margin-left: 30px;
       text-align: left;
-   }
-   .name {
-    font-size: 20px;
-    text-align: left;
-  }
+    }
   }
 
   article:nth-child(odd) {
     flex-direction: row-reverse;
     justify-content: right;
     margin-right: 44px;
-  
-  .adalabers{
-    margin-right: 45px;
-    padding: 0;
-    text-align: right;
-  }
-  .name {
-    font-size: 20px;
-    text-align: right;
-  }
- }
 
+    .adalabers {
+      margin-right: 30px;
+      text-align: right;
+    }
+  }
 
-   .text {
-    width: 400px;
+  .text {
+    width: 443px;
     font-size: 16px;
+  }
+}
+@media all and (min-width: 1200px) {
+  article:nth-child(even) {
+    margin-left: 138px;
+    .adalabers {
+      margin-left: 45px;
+    }
+  }
+
+  article:nth-child(odd) {
+    margin-right: 138px;
+    .adalabers {
+      margin-right: 45px;
+    }
+  }
+
+  .text {
+    width: 439px;
   }
 }
