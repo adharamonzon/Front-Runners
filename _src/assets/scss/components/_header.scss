@@ -1,0 +1,108 @@
+/* HEADER*/
+.header-container {
+  background: url("../images/frontrunners-team.jpg") center center no-repeat;
+  background-size: cover;
+  height: 421px;
+  position: relative;
+  @media all and (min-width: 1200px) {
+    height: 450px;
+  }
+
+  .nav-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+    /*  */
+    @media all and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(9, 157, 141, 0.9);
+    }
+    .name-team {
+      text-align: center;
+      padding: 15px 0px;
+      background-color: rgba(9, 157, 141, 0.9);
+      @media all and (min-width: 768px) {
+        text-align: left;
+        background-color: transparent;
+        padding-left: 45px;
+      }
+      @media all and (min-width: 1200px) {
+        padding-left: 145px;
+      }
+      .uppercase {
+        text-transform: uppercase;
+        a {
+          font-family: "Rubik", sans-serif;
+          font-size: 1rem;
+          line-height: 30px;
+          color: white;
+        }
+      }
+    }
+  }
+  /* MENU */
+  ul.menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(20, 217, 196, 0.9);
+    padding: 8px 0px;
+    @media all and (min-width: 768px) {
+      background-color: transparent;
+      padding: 8px 45px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-right: 145px;
+    }
+
+    li.menu {
+      @media all and (min-width: 768px) {
+        padding-left: 18px;
+      }
+      a {
+        color: white;
+        font-family: "Rubik", sans-serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-decoration: none;
+        line-height: 30px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  /* SLOGAN */
+  .slogan {
+    position: absolute;
+    bottom: -40px;
+    /* height: 80px; */
+    margin: 0px 15px;
+    padding: 15px;
+    background-color: white;
+    max-width: 550px;
+    @media all and (min-width: 768px) {
+      bottom: 0px;
+      margin-left: 45px;
+      padding: 15px 30px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    @media all and (min-width: 1200px) {
+      margin-left: 138px;
+    }
+
+    h3 {
+      font-family: "Open-sans", sans-serif;
+      font-size: 1.125rem;
+      font-weight: 600;
+      line-height: 25px;
+      @media all and (min-width: 1200px) {
+        font-size: 1.25rem;
+        line-height: 24px;
+      }
+    }
+  }
+}
