@@ -32,6 +32,7 @@ section.contact-us {
   line-height: 24px;
   font-family: "Open-sans", sans-serif;
   max-width: 442px;
+  margin-bottom: 58px;
 }
 .info-contact h2 {
   margin-bottom: 15px;
@@ -61,6 +62,7 @@ section.contact-us {
 .form-container {
   padding: 0;
   margin: 0 auto;
+  // margin-top: 58px;
   max-width: 601px;
 }
 
@@ -86,8 +88,8 @@ input {
   color: #54585a;
   margin-bottom: 7px;
 }
-.name-container label{
-  margin-bottom: 7px;
+.name-container input{
+  margin-top: 7px;
 }
 
 .name-container label:after {
