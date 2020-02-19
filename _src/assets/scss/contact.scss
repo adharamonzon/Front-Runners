@@ -1,4 +1,5 @@
 @import "core/_reset";
+@import "core/_variables";
 
 /* PARTE GENERAL */
 .principal-column {
@@ -29,7 +30,7 @@ section.contact-us {
   margin: 0 auto;
   text-align: center;
   line-height: 24px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open-sans", sans-serif;
   max-width: 442px;
 }
 .info-contact h2 {
@@ -53,6 +54,198 @@ section.contact-us {
   }
   .info-contact {
     max-width: 600px;
+  }
+}
+/* Estilos de Formulario */
+
+.form-container {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 601px;
+}
+
+label,
+input {
+  font-family: "Open-sans", sans-serif;
+}
+.name-container input {
+  display: block;
+  width: 290px;
+  height: 45px;
+}
+
+.name-container input::placeholder {
+  padding-top: 11px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.name-container {
+  display: inline-block;
+  font-size: 14px;
+  color: #54585a;
+  margin-bottom: 7px;
+}
+.name-container label{
+  margin-bottom: 7px;
+}
+
+.name-container label:after {
+  content: "\02a";
+  color: #14d9c4;
+}
+
+.mail-container input {
+  display: inline-block;
+  width: 290px;
+  height: 45px;
+}
+
+.mail-container input::placeholder {
+  font-family: "Open-sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+  padding-top: 7px;
+  padding-bottom: 16px;
+  padding-left: 15px;
+  padding-right: 57px;
+}
+
+.mail-container label {
+  display: block;
+  font-size: 14px;
+  color: #54585a;
+  margin-top: 13px;
+  margin-bottom: 7px;
+}
+
+.tel-container input {
+  display: block;
+  width: 290px;
+  height: 45px;
+}
+
+.tel-container input::placeholder {
+  padding-top: 11px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 180px;
+}
+
+.tel-container label {
+  display: block;
+  font-size: 14px;
+  color: #54585a;
+  padding-top: 13px;
+  margin-bottom: 7px;
+}
+
+.tel-container label::after {
+  content: "\02a";
+  color: #14d9c4;
+}
+
+.message-container textarea {
+  display: block;
+  width: 290px;
+  height: 105px;
+  overflow: auto;
+}
+
+.message-container textarea::placeholder {
+  padding-top: 11px;
+  padding-bottom: 75px;
+  padding-left: 15px;
+}
+.message-container label {
+  display: block;
+  font-size: 14px;
+  color: #54585a;
+  margin-top: 13px;
+  margin-bottom: 7px;
+}
+
+.message-container label::after {
+  content: "\02a";
+  color: #14d9c4;
+}
+
+.button-container {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  width: 290px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #099d8d;
+}
+.button-container:hover {
+  background-color: #14d9c4;
+}
+
+.button-container button {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #099d8d;
+}
+
+@media all and (min-width: 768px) {
+  .form-container {
+    margin: 0 163px;
+  }
+  .name-container input {
+    width: 442px;
+  }
+  .mail-container input {
+    width: 442px;
+  }
+  .tel-container input {
+    width: 442px;
+  }
+  .message-container textarea {
+    width: 442px;
+  }
+  .button-container {
+    width: 206px;
+    margin-left: 235px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .form-container {
+    /*   margin: 0 300px; */
+    margin: 0 auto;
+  }
+  .name-container input {
+    width: 601px;
+  }
+  .mail-container input {
+    width: 395px;
+  }
+  .mail-container,
+  .tel-container {
+    display: inline-block;
+  }
+  .tel-container {
+    margin-left: 40px;
+  }
+  .tel-container input {
+    width: 162px;
+  }
+  .message-container textarea {
+    width: 601px;
+  }
+  .button-container {
+    width: 278px;
+    margin-left: 321px;
   }
 }
 @import "components/_footer";

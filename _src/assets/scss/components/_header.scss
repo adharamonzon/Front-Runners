@@ -21,7 +21,7 @@
       background-color: rgba(9, 157, 141, 0.9);
     }
     .name-team {
-      text-align: center;
+      text-align: $textCenter;
       padding: 15px 0px;
       background-color: rgba(9, 157, 141, 0.9);
       @media all and (min-width: 768px) {
@@ -33,9 +33,9 @@
         padding-left: 145px;
       }
       .uppercase {
-        text-transform: uppercase;
+        text-transform: $textUppercase;
         a {
-          font-family: "Rubik", sans-serif;
+          font-family: $fontText-01;
           font-size: 1rem;
           line-height: 30px;
           color: white;
@@ -61,17 +61,18 @@
     }
 
     li.menu {
-      @media all and (min-width: 768px) {
-        padding-left: 18px;
-      }
       a {
         color: white;
-        font-family: "Rubik", sans-serif;
+        font-family: $fontText-01;
         font-size: 0.9rem;
         font-weight: 600;
         text-decoration: none;
         line-height: 30px;
-        text-transform: uppercase;
+        text-transform: $textUppercase;
+        padding: 10px 20px;
+        &:hover {
+          background-color: rgba(20, 217, 196, 0.9);
+        }
       }
     }
   }
@@ -96,7 +97,7 @@
     }
 
     h3 {
-      font-family: "Open-sans", sans-serif;
+      font-family: $fontText-02;
       font-size: 1.125rem;
       font-weight: 600;
       line-height: 25px;
