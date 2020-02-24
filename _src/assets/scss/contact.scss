@@ -73,13 +73,15 @@ input {
   display: block;
   width: 290px;
   height: 45px;
-}
-
-.name-container input::placeholder {
   padding-top: 11px;
-  padding-bottom: 15px;
+  // padding-bottom: 16px;
   padding-left: 15px;
 }
+
+// .name-container input::placeholder {
+//   padding-top: 11px;
+//   padding-bottom: 15px;
+// }
 
 .name-container {
   display: inline-block;
@@ -106,10 +108,6 @@ input {
   font-family: "Open-sans", sans-serif;
   font-size: 16px;
   color: #54585a;
-  padding-top: 7px;
-  padding-bottom: 16px;
-  padding-left: 15px;
-  padding-right: 57px;
 }
 
 .mail-container label {
@@ -126,12 +124,12 @@ input {
   height: 45px;
 }
 
-.tel-container input::placeholder {
-  padding-top: 11px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 180px;
-}
+// .tel-container input::placeholder {
+//   padding-top: 11px;
+//   padding-bottom: 15px;
+//   padding-left: 15px;
+//   padding-right: 180px;
+// }
 
 .tel-container label {
   display: block;
@@ -153,11 +151,11 @@ input {
   overflow: auto;
 }
 
-.message-container textarea::placeholder {
-  padding-top: 11px;
-  padding-bottom: 75px;
-  padding-left: 15px;
-}
+// .message-container textarea::placeholder {
+//   padding-top: 11px;
+//   padding-bottom: 75px;
+//   padding-left: 15px;
+// }
 .message-container label {
   display: block;
   font-size: 14px;
