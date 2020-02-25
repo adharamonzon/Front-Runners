@@ -13,8 +13,7 @@
 
 /* HEADER*/
 .header-container {
-  background: url("../images/frontrunners-team-contact2.jpg") center center
-    no-repeat;
+  background: url("../images/frontrunners-team-contact2.jpg") center center no-repeat;
   background-size: cover;
   height: 300px;
   /* position: relative; */
@@ -61,8 +60,10 @@ section.contact-us {
 
 .form-container {
   padding: 0;
-  margin: 0 auto;
-  max-width: 601px;
+  /* margin: 0 auto; */
+  margin: 0 15px;
+  border: 1px solid red;
+  /* max-width: 601px; */
 }
 
 label,
@@ -87,7 +88,7 @@ input {
   color: #54585a;
   margin-bottom: 7px;
 }
-.name-container input{
+.name-container input {
   margin-top: 7px;
 }
 
