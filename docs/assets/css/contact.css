@@ -1,1 +1,436 @@
-* {margin: 0;padding: 0;-webkit-box-sizing: border-box;box-sizing: border-box;}.principal-column {width: 100wh;padding-left: 15px;padding-right: 15px;text-align: center;-webkit-box-sizing: border-box;box-sizing: border-box;}.header-container {background: url("../images/frontrunners-team.jpg") center center no-repeat;background-size: cover;height: 421px;position: relative;}.header-container .nav-bar {position: fixed;width: 100%;z-index: 200;}.header-container .nav-bar .name-team {text-align: center;padding: 15px 0px;background-color: rgba(9,157,141,0.9);}.header-container .nav-bar .name-team .uppercase {text-transform: uppercase;}.header-container .nav-bar .name-team .uppercase a {font-family: "Rubik",sans-serif;font-size: 1rem;line-height: 30px;color: white;text-decoration: none;}.header-container ul.menu-container {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: space-evenly;-ms-flex-pack: space-evenly;justify-content: space-evenly;-webkit-box-align: center;-ms-flex-align: center;align-items: center;list-style: none;background-color: rgba(20,217,196,0.9);padding: 8px 0px;}.header-container ul.menu-container li.menu a {color: white;font-family: "Rubik",sans-serif;font-size: 0.9rem;font-weight: 600;text-decoration: none;line-height: 30px;text-transform: uppercase;padding: 10px 20px;}.header-container ul.menu-container li.menu a:hover {background-color: rgba(20,217,196,0.9);}.header-container .slogan {position: absolute;bottom: -40px;margin: 0px 15px;padding: 15px;background-color: white;max-width: 550px;}.header-container .slogan h3 {font-family: "Open Sans",sans-serif;font-size: 1.125rem;font-weight: 600;line-height: 25px;}.header-container {background: url("../images/frontrunners-team-contact2.jpg") center center no-repeat;background-size: cover;height: 300px;}.slogan {display: none;}section.contact-us {padding: 60px 15px 60px 15px;}.info-contact {margin: 0 auto;text-align: center;line-height: 24px;font-family: "Open-sans", sans-serif;max-width: 442px;}.info-contact h2 {margin-bottom: 15px;text-transform: uppercase;font-family: "Rubik", sans-serif;color: #14d9c4;}.info-contact p.contact-text {padding: 15px 20px 20px 20px;}.text-small span.color {color: #14d9c4;}.form-container {padding: 0;margin: 0 auto;max-width: 601px;}label,input {font-family: "Open-sans", sans-serif;}.name-container input {display: block;width: 290px;height: 45px;}.name-container input::-webkit-input-placeholder {padding-top: 11px;padding-bottom: 15px;padding-left: 15px;}.name-container input:-ms-input-placeholder {padding-top: 11px;padding-bottom: 15px;padding-left: 15px;}.name-container input::-ms-input-placeholder {padding-top: 11px;padding-bottom: 15px;padding-left: 15px;}.name-container input::placeholder {padding-top: 11px;padding-bottom: 15px;padding-left: 15px;}.name-container {display: inline-block;font-size: 14px;color: #54585a;margin-bottom: 7px;}.name-container label {margin-bottom: 7px;}.name-container label:after {content: "\02a";color: #14d9c4;}.mail-container input {display: inline-block;width: 290px;height: 45px;}.mail-container input::-webkit-input-placeholder {font-family: "Open-sans", sans-serif;font-size: 16px;color: #54585a;padding-top: 7px;padding-bottom: 16px;padding-left: 15px;padding-right: 57px;}.mail-container input:-ms-input-placeholder {font-family: "Open-sans", sans-serif;font-size: 16px;color: #54585a;padding-top: 7px;padding-bottom: 16px;padding-left: 15px;padding-right: 57px;}.mail-container input::-ms-input-placeholder {font-family: "Open-sans", sans-serif;font-size: 16px;color: #54585a;padding-top: 7px;padding-bottom: 16px;padding-left: 15px;padding-right: 57px;}.mail-container input::placeholder {font-family: "Open-sans", sans-serif;font-size: 16px;color: #54585a;padding-top: 7px;padding-bottom: 16px;padding-left: 15px;padding-right: 57px;}.mail-container label {display: block;font-size: 14px;color: #54585a;margin-top: 13px;margin-bottom: 7px;}.tel-container input {display: block;width: 290px;height: 45px;}.tel-container input::-webkit-input-placeholder {padding-top: 11px;padding-bottom: 15px;padding-left: 15px;padding-right: 180px;}.tel-container input:-ms-input-placeholder {padding-top: 11px;padding-bottom: 15px;padding-left: 15px;padding-right: 180px;}.tel-container input::-ms-input-placeholder {padding-top: 11px;padding-bottom: 15px;padding-left: 15px;padding-right: 180px;}.tel-container input::placeholder {padding-top: 11px;padding-bottom: 15px;padding-left: 15px;padding-right: 180px;}.tel-container label {display: block;font-size: 14px;color: #54585a;padding-top: 13px;margin-bottom: 7px;}.tel-container label::after {content: "\02a";color: #14d9c4;}.message-container textarea {display: block;width: 290px;height: 105px;overflow: auto;}.message-container textarea::-webkit-input-placeholder {padding-top: 11px;padding-bottom: 75px;padding-left: 15px;}.message-container textarea:-ms-input-placeholder {padding-top: 11px;padding-bottom: 75px;padding-left: 15px;}.message-container textarea::-ms-input-placeholder {padding-top: 11px;padding-bottom: 75px;padding-left: 15px;}.message-container textarea::placeholder {padding-top: 11px;padding-bottom: 75px;padding-left: 15px;}.message-container label {display: block;font-size: 14px;color: #54585a;margin-top: 13px;margin-bottom: 7px;}.message-container label::after {content: "\02a";color: #14d9c4;}.button-container {margin-top: 30px;margin-bottom: 60px;width: 290px;height: 45px;border-radius: 4px;background-color: #099d8d;}.button-container:hover {background-color: #14d9c4;}.button-container button {width: 100%;height: 100%;background: none;border: none;color: white;cursor: pointer;text-transform: uppercase;}input:focus,textarea:focus {outline-color: #099d8d;}.footer {height: 250px;border-top: solid 1px #b8b8b9;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-align: center;-ms-flex-align: center;align-items: center;position: relative;}.footer .copyright {font-family: "Open Sans",sans-serif;font-size: 14px;line-height: 1.43;text-align: center;color: #b8b8b9;margin-top: 30px;text-transform: uppercase;}.nav-list {opacity: 0.75;font-family: "Open Sans", sans-serif;font-size: 14px;font-weight: 600;line-height: 1.43;text-align: center;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-align: center;-ms-flex-align: center;align-items: center;position: absolute;top: 70px;}.nav-list ul {list-style: none;padding: 0;margin: 0;}.nav-list ul li {text-transform: uppercase;}.nav-list ul li a {text-decoration: none;color: #54585a;}.logo-container {margin: 0 auto;width: 116px;height: 45px;position: absolute;bottom: 45px;}.logo-container .logo-adalab {width: 100%;}@media all and (min-width: 768px) {.header-container .nav-bar {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;align-items: center;background-color: rgba(9,157,141,0.9);}.header-container .nav-bar .name-team {text-align: left;background-color: transparent;padding-left: 45px;}.header-container ul.menu-container {background-color: transparent;padding: 8px 45px;}.header-container .slogan {bottom: 0px;margin-left: 45px;padding: 15px 30px;background-color: rgba(255,255,255,0.8);}.form-container {margin: 0 163px;}.name-container input {width: 442px;}.mail-container input {width: 442px;}.tel-container input {width: 442px;}.message-container textarea {width: 442px;}.button-container {width: 206px;margin-left: 235px;}.footer {height: 170px;-webkit-box-align: start;-ms-flex-align: start;align-items: flex-start;}.footer .copyright {padding-left: 45px;}.nav-list {width: 324px;height: 90px;-ms-flex-item-align: end;align-self: flex-end;right: 45px;top: 24px;-webkit-box-align: end;-ms-flex-align: end;align-items: flex-end;text-align: right;line-height: 2.14;}.logo-container {bottom: 60px;left: 45px;}.principal-column {padding: 0;width: auto;}}@media all and (min-width: 1200px) {.header-container {height: 450px;}.header-container .nav-bar .name-team {padding-left: 145px;}.header-container ul.menu-container {padding-right: 145px;}.header-container .slogan {margin-left: 138px;}.header-container .slogan h3 {font-size: 1.25rem;line-height: 24px;}.header-container {height: 400px;}ul.menu-container {padding-right: 145px;}.info-contact {max-width: 600px;}.form-container {margin: 0 auto;}.name-container input {width: 601px;}.mail-container input {width: 395px;}.mail-container,.tel-container {display: inline-block;}.tel-container {margin-left: 40px;}.tel-container input {width: 162px;}.message-container textarea {width: 601px;}.button-container {width: 278px;margin-left: 321px;}.footer {height: 161px;-webkit-box-align: start;-ms-flex-align: start;align-items: flex-start;}.footer .copyright {padding-left: 138px;}.nav-list {right: 138px;}.logo-container {bottom: 51px;left: 138px;}}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.principal-column {
+  width: 100wh;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.header-container {
+  background: url("../images/frontrunners-team.jpg") center center no-repeat;
+  background-size: cover;
+  height: 421px;
+  position: relative;
+}
+.header-container .nav-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+}
+.header-container .nav-bar .name-team {
+  text-align: center;
+  padding: 15px 0px;
+  background-color: rgba(9, 157, 141, 0.9);
+}
+.header-container .nav-bar .name-team .uppercase {
+  text-transform: uppercase;
+}
+.header-container .nav-bar .name-team .uppercase a {
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+}
+.header-container ul.menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  background-color: rgba(20, 217, 196, 0.9);
+  padding: 8px 0px;
+}
+.header-container ul.menu-container li.menu a {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 10px 8px;
+}
+.header-container ul.menu-container li.menu a:hover {
+  background-color: rgba(20, 217, 196, 0.9);
+}
+.header-container .slogan {
+  position: absolute;
+  bottom: -40px;
+  margin: 0px 15px;
+  padding: 15px;
+  background-color: white;
+  max-width: 550px;
+}
+.header-container .slogan h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 25px;
+}
+.header-container {
+  background: url("../images/frontrunners-team-contact2.jpg") center center no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.slogan {
+  display: none;
+}
+section.contact-us {
+  padding: 60px 15px 60px 15px;
+}
+.info-contact {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Open-sans", sans-serif;
+  max-width: 442px;
+  margin-bottom: 58px;
+}
+.info-contact h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  color: #14d9c4;
+}
+.info-contact p.contact-text {
+  padding: 15px 20px 20px 20px;
+}
+.text-small span.color {
+  color: #14d9c4;
+}
+.form-container {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 601px;
+}
+.form-container label,
+.form-container input {
+  font-family: "Open-sans", sans-serif;
+}
+.form-container .input-form,
+.form-container .message-area,
+.form-container .button-container {
+  padding-top: 11px;
+  padding-left: 15px;
+  padding-bottom: 16px;
+  width: 290px;
+}
+.form-container .input-form:focus,
+.form-container .message-area:focus,
+.form-container .button-container:focus {
+  outline-color: #099d8d;
+}
+.form-container .name-container {
+  display: inline-block;
+  font-size: 14px;
+  color: #54585a;
+  margin-bottom: 7px;
+}
+.form-container .name-container .input-form {
+  display: block;
+  height: 45px;
+  margin-top: 7px;
+}
+.form-container .name-container .form-name:after {
+  content: "\02a";
+  color: #14d9c4;
+}
+.form-container .mail-container .input-form {
+  display: inline-block;
+  height: 45px;
+}
+.form-container .mail-container .input-form::-webkit-input-placeholder {
+  font-family: "Open-sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+}
+.form-container .mail-container .input-form:-ms-input-placeholder {
+  font-family: "Open-sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+}
+.form-container .mail-container .input-form::-ms-input-placeholder {
+  font-family: "Open-sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+}
+.form-container .mail-container .input-form::placeholder {
+  font-family: "Open-sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+}
+.form-container .form-mail {
+  display: block;
+  font-size: 14px;
+  color: #54585a;
+  margin-top: 13px;
+  margin-bottom: 7px;
+}
+.form-container .tel-container .input-form {
+  display: block;
+  height: 45px;
+}
+.form-container .tel-container .form-tel {
+  display: block;
+  font-size: 14px;
+  color: #54585a;
+  padding-top: 13px;
+  margin-bottom: 7px;
+}
+.form-container .tel-container .form-tel::after {
+  content: "\02a";
+  color: #14d9c4;
+}
+.form-container .message-container .form-message {
+  display: block;
+  font-size: 14px;
+  color: #54585a;
+  margin-top: 13px;
+  margin-bottom: 7px;
+}
+.form-container .message-container .form-message::after {
+  content: "\02a";
+  color: #14d9c4;
+}
+.form-container .message-container .message-area {
+  display: block;
+  height: 105px;
+  overflow: auto;
+}
+.form-container .button-container {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #099d8d;
+}
+.form-container .button-container:hover {
+  background-color: #14d9c4;
+}
+.form-container .button-container button {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.footer {
+  height: 250px;
+  border-top: solid 1px #b8b8b9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+.footer .copyright {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #b8b8b9;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+.nav-list {
+  opacity: 0.75;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+}
+.nav-list .list-footer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-list .list-footer .item-list {
+  text-transform: uppercase;
+}
+.nav-list .list-footer .item-list .item-link {
+  text-decoration: none;
+  color: #54585a;
+}
+.logo-container {
+  margin: 0 auto;
+  width: 116px;
+  height: 45px;
+  position: absolute;
+  bottom: 45px;
+}
+.logo-container .logo-adalab {
+  width: 100%;
+}
+@media all and (min-width: 768px) {
+  .header-container .nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(9, 157, 141, 0.9);
+  }
+  .header-container .nav-bar .name-team {
+    text-align: left;
+    background-color: transparent;
+    padding-left: 45px;
+  }
+  .header-container ul.menu-container {
+    background-color: transparent;
+    padding: 8px 45px;
+  }
+  .header-container .slogan {
+    bottom: 0px;
+    margin-left: 45px;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .form-container {
+    margin: 0 163px;
+  }
+  .form-container .input-form,
+  .form-container .message-area {
+    width: 442px;
+  }
+  .form-container .button-container {
+    width: 206px;
+    margin-left: 235px;
+  }
+  .footer {
+    height: 170px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .footer .copyright {
+    padding-left: 45px;
+  }
+  .nav-list {
+    width: 324px;
+    height: 90px;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    right: 45px;
+    top: 24px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    text-align: right;
+    line-height: 2.14;
+  }
+  .logo-container {
+    bottom: 60px;
+    left: 45px;
+  }
+  .principal-column {
+    padding: 0;
+    width: auto;
+  }
+}
+@media all and (min-width: 1200px) {
+  .header-container {
+    height: 450px;
+  }
+  .header-container .nav-bar .name-team {
+    padding-left: 145px;
+  }
+  .header-container ul.menu-container {
+    padding-right: 145px;
+  }
+  .header-container .slogan {
+    margin-left: 138px;
+  }
+  .header-container .slogan h3 {
+    font-size: 1.25rem;
+    line-height: 24px;
+  }
+  .header-container {
+    height: 400px;
+  }
+  ul.menu-container {
+    padding-right: 145px;
+  }
+  .info-contact {
+    max-width: 600px;
+  }
+  .form-container {
+    margin: 0 auto;
+  }
+  .form-container .mail-container,
+  .form-container .tel-container {
+    display: inline-block;
+  }
+  .form-container .name-container .input-form {
+    width: 601px;
+  }
+  .form-container .mail-container .input-form {
+    width: 395px;
+  }
+  .form-container .tel-container {
+    margin-left: 40px;
+  }
+  .form-container .tel-container .input-form {
+    width: 162px;
+  }
+  .form-container .message-container .message-area {
+    width: 601px;
+  }
+  .form-container .button-container {
+    width: 278px;
+    margin-left: 324px;
+  }
+  .footer {
+    height: 161px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .footer .copyright {
+    padding-left: 138px;
+  }
+  .nav-list {
+    right: 138px;
+  }
+  .logo-container {
+    bottom: 51px;
+    left: 138px;
+  }
+}
