@@ -1,8 +1,0 @@
-{
-  "editor.wordWrapColumn": 1200,
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#242F38",
-    "titleBar.activeBackground": "#33424F",
-    "titleBar.activeForeground": "#F9FAFB"
-  }
-}

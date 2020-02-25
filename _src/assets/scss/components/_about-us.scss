@@ -12,6 +12,7 @@
     color: $colorPrimary;
     animation-name: title-about-us-animation;
     animation-duration: 5s;
+    animation-timing-function: ease;
   }
   .link-interno {
     color: transparent;
@@ -22,13 +23,12 @@
 
 @keyframes title-about-us-animation {
   from {
-    transform: translate(60px, 0px);
     color: transparent;
-    transform: scale(3);
+    font-size: 60px;
   }
   to {
-    transform: translate(0px, 0px);
     color: $colorPrimary;
+    font-size: 24px;
   }
 }
 
@@ -91,17 +91,9 @@
     width: 18px;
     height: 18px;
     text-align: $textCenter;
-    animation: rotation 3s linear infinite;
+    transition: ease 3s;
     &:hover {
       transform: rotate(360deg);
-    }
-  }
-  @keyframes rotation {
-    0% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate (360deg);
     }
   }
 }
