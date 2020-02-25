@@ -42,109 +42,60 @@
             <div class="info-contact">
                  <h2 class="contact-title">Contacto</h2>
                 <p class="contact-text">Si quieres dar nuevas oportunidades por favor contáctenos!</p>
-                <p class="text-small"> <small>Todos los campos marcados con <span class="color">*</span> son
+                <p class="text-small"> <small>Todos los campos marcados con <span class="color">*</span> son obligatorios</small>
+                </p>
+            </div>
+        </section>
+        <!-- ubicacion formulario -->
+        <section class="form-container">
+            <form action="https://formspree.io/griselmatosm@gmail.com" method="POST">
+                <div class="name-container">
+                    <label class="form-name" for="fullname">Nombre completo</label>
+                    <input class="input-form" type="text" name="fullname"
+                    id="fullname" placeholder="Nombre y Apellidos" required />
+                </div>
+                <div class="mail-container">
+                    <label class="form-mail" for="email">Email</label>
+                    <input class="input-form" type="email" name="email" id="email"
+                    placeholder=" nombre.apellidos@mail.com" />
+                </div>
+                <div class="tel-container">
+                    <label class="form-tel" for="phone">Teléfono</label>
+                    <input class="input-form" type="tel" name="phone" id="phone"
+                    placeholder="Ej: 123456789" />
+                </div>
+                <div class="message-container">
+                    <label class="form-message" for="message">Mensaje</label>
+                    <textarea class="message-area" name="message" id="message"
+                    cols="30" rows="10" placeholder="¿Qué necesitas?" required></textarea>
+                </div>
+                <div class="button-container">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <div style="clear: both"></div>
+        <!-- FOOTER -->
+        <footer class="footer principal-column">
+            <div class="copyright">Front-Runners ©2020</div>
+            <nav class="nav-list">
+                <ul class="list-footer">
+                    <li class="item-list"> <a class="item-link" href="#section-team" title="Navega a la sección Equipo"> Equipo </a>
 
-            obligatorios</small
-
-          >
-
-        </p>
-
-      </div>
-
-          <!-- ubicacion formulario -->
-
-    <div class="form-container">
-
-      <form action="https://formspree.io/griselmatosm@gmail.com" method="POST">
-
-        <div class="name-container">
-
-          <label class="form-name" for="fullname"> Nombre completo </label>
-
-          <input class="input-form" type="text" name="fullname" id="fullname" placeholder="Nombre y Apellidos" required />
-
-        </div>
-
-        <div class="mail-container">
-
-          <label class="form-mail" for="email"> Email </label>
-
-          <input class="input-form" type="email" name="email" id="email" placeholder=" nombre.apellidos@mail.com" />
-
-        </div>
-
-        <div class="tel-container">
-
-          <label class="form-tel" for="phone"> Teléfono </label>
-
-          <input class="input-form" type="tel" name="phone" id="phone" placeholder="Ej: 123456789" />
-
-        </div>
-
-
-
-          <div class="message-container">
-
-            <label class="form-message" for="message"> Mensaje </label>
-
-            <textarea class="message-area"
-
-              name="message"
-
-              id="message"
-
-              cols="30"
-
-              rows="10"
-
-              placeholder="¿Qué necesitas?"
-
-              required
-
-            ></textarea>
-
-          </div>
-
-          <div class="button-container">
-
-            <button type="submit">
-
-              Enviar
-
-            </button>
-
-          </div>
-
-        </form>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- FOOTER -->
-<footer class="footer principal-column">
-    <div class="copyright">Front-Runners ©2020</div>
-    <nav class="nav-list">
-        <ul class="list-footer">
-            <li class="item-list"> <a class="item-link" href="#section-team" title="Navega a la sección Equipo"> Equipo </a>
-
-            </li>
-            <li class="item-list"> <a class="item-link" href="#about-us" title="Navega a la sección Quiénes somos">
+                    </li>
+                    <li class="item-list"> <a class="item-link" href="#about-us" title="Navega a la sección Quiénes somos">
           Quiénes somos
         </a>
 
-            </li>
-            <li class="item-list"> <a class="item-link" href="contact.html" title="Contáctanos rellenando un sencillo formulario"
-                target="blank">Contacto
+                    </li>
+                    <li class="item-list"> <a class="item-link" href="contact.html" title="Contáctanos rellenando un sencillo formulario"
+                        target="blank">Contacto
         </a>
 
-            </li>
-        </ul>
-    </nav>
-    <div class="logo-container"> <a href="#">
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo-container"> <a href="#">
       <img
         src="./assets/images/logo-adalab.svg"
         alt="Adalab"
@@ -152,10 +103,8 @@
       />
     </a>
 
-    </div>
-</footer>
-
-  </body>
+            </div>
+        </footer>
+    </body>
 
 </html>
-
