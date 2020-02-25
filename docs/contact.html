@@ -1,97 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/contact.css" />
-  </head>
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        />
+        <title>Contacto</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap"
+        rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/contact.css" />
+    </head>
+    
+    <body>
+        <!-- INICIO DEL ENCABEZADO PÁGINA (header, hero, nav) -->
+        <header class="header-container">
+            <nav class="nav-bar">
+                <div class="name-team">
+                     <h1 class="uppercase">
+        <a href="index.html" title="Front-runners">Front-runners</a>
+      </h1>
 
-  <body>
-    <!-- INICIO DEL ENCABEZADO PÁGINA (header, hero, nav) -->
-    <header class="header-container">
-      <nav class="nav-bar">
-        <div class="name-team">
-          <h1 class="uppercase">
-            <a href="index.html" title="Front-runners">Front-runners</a>
-          </h1>
-        </div>
-        <ul class="menu-container">
-          <li class="menu"><a href="index.html#section-team" title="Equipo">Equipo</a></li>
-          <li class="menu"><a href="index.html#about-us" title="Quienes somos">Quienes somos</a></li>
-          <li class="menu"><a href="contact.html" title="Contacto">Contacto</a></li>
-        </ul>
-      </nav>
-      <div class="slogan">
-        <h3>"Una nueva generación de mujeres que sincretizamos saberes"</h3>
-      </div>
-    </header>
-    <section class="contact-us">
-      <div class="info-contact">
-        <h2 class="contact-title">Contacto</h2>
-        <p class="contact-text">Si quieres dar nuevas oportunidades por favor contáctenos!</p>
-        <p class="text-small">
-          <small>Todos los campos marcados con <span class="color">*</span> son obligatorios</small>
+                </div>
+                <ul class="menu-container">
+                    <li class="menu"> <a href="index.html#section-team" title="Equipo">Equipo</a>
+
+                    </li>
+                    <li class="menu"> <a href="index.html#about-us" title="Quienes somos">Quienes somos</a>
+
+                    </li>
+                    <li class="menu"><a href="contact.html" title="Contacto">Contacto</a>
+
+                    </li>
+                </ul>
+            </nav>
+            <div class="slogan">
+                 <h3>"Una nueva generación de mujeres que sincretizamos saberes"</h3>
+
+            </div>
+        </header>
+        <section class="contact-us">
+            <div class="info-contact">
+                 <h2 class="contact-title">Contacto</h2>
+                <p class="contact-text">Si quieres dar nuevas oportunidades por favor contáctenos!</p>
+                <p class="text-small"> <small>Todos los campos marcados con <span class="color">*</span> son
+
+            obligatorios</small
+
+          >
+
         </p>
+
       </div>
 
-      <!-- ubicacion formulario -->
+          <!-- ubicacion formulario -->
 
-      <div class="form-container">
-        <form action="https://formspree.io/griselmatosm@gmail.com" method="POST">
-          <div class="name-container">
-            <label class="form-name" for="fullname"> Nombre completo </label>
+    <div class="form-container">
 
-            <input class="input-form" type="text" name="fullname" id="fullname" placeholder="Nombre y Apellidos" required />
-          </div>
+      <form action="https://formspree.io/griselmatosm@gmail.com" method="POST">
 
-          <div class="mail-container">
-            <label class="form-mail" for="email"> Email </label>
+        <div class="name-container">
 
-            <input class="input-form" type="email" name="email" id="email" placeholder=" nombre.apellidos@mail.com" />
-          </div>
+          <label class="form-name" for="fullname"> Nombre completo </label>
 
-          <div class="tel-container">
-            <label class="form-tel" for="phone"> Teléfono </label>
+          <input class="input-form" type="text" name="fullname" id="fullname" placeholder="Nombre y Apellidos" required />
 
-            <input class="input-form" type="tel" name="phone" id="phone" placeholder="Ej: 123456789" />
-          </div>
+        </div>
+
+        <div class="mail-container">
+
+          <label class="form-mail" for="email"> Email </label>
+
+          <input class="input-form" type="email" name="email" id="email" placeholder=" nombre.apellidos@mail.com" />
+
+        </div>
+
+        <div class="tel-container">
+
+          <label class="form-tel" for="phone"> Teléfono </label>
+
+          <input class="input-form" type="tel" name="phone" id="phone" placeholder="Ej: 123456789" />
+
+        </div>
+
+
 
           <div class="message-container">
+
             <label class="form-message" for="message"> Mensaje </label>
 
-            <textarea class="message-area" name="message" id="message" cols="30" rows="10" placeholder="¿Qué necesitas?" required></textarea>
+            <textarea class="message-area"
+
+              name="message"
+
+              id="message"
+
+              cols="30"
+
+              rows="10"
+
+              placeholder="¿Qué necesitas?"
+
+              required
+
+            ></textarea>
+
           </div>
 
           <div class="button-container">
+
             <button type="submit">
+
               Enviar
+
             </button>
+
           </div>
+
         </form>
+
       </div>
+
     </section>
 
+
+
     <!-- FOOTER -->
-    <footer class="footer principal-column">
-      <div class="copyright">Front-Runners ©2020</div>
-      <nav class="nav-list">
+<footer class="footer principal-column">
+    <div class="copyright">Front-Runners ©2020</div>
+    <nav class="nav-list">
         <ul class="list-footer">
-          <li class="item-list"><a class="item-link" href="#section-team" title="Navega a la sección Equipo"> Equipo </a></li>
-          <li class="item-list">
-            <a class="item-link" href="#about-us" title="Navega a la sección Quiénes somos">
-              Quiénes somos
-            </a>
-          </li>
-          <li class="item-list"><a class="item-link" href="contact.html" title="Contáctanos rellenando un sencillo formulario" target="blank">Contacto </a></li>
-        </ul>
-      </nav>
-      <div class="logo-container">
-        <a href="#">
-          <img src="./assets/images/logo-adalab.svg" alt="Adalab" class="logo-adalab" />
+            <li class="item-list"> <a class="item-link" href="#section-team" title="Navega a la sección Equipo"> Equipo </a>
+
+            </li>
+            <li class="item-list"> <a class="item-link" href="#about-us" title="Navega a la sección Quiénes somos">
+          Quiénes somos
         </a>
-      </div>
-    </footer>
+
+            </li>
+            <li class="item-list"> <a class="item-link" href="contact.html" title="Contáctanos rellenando un sencillo formulario"
+                target="blank">Contacto
+        </a>
+
+            </li>
+        </ul>
+    </nav>
+    <div class="logo-container"> <a href="#">
+      <img
+        src="./assets/images/logo-adalab.svg"
+        alt="Adalab"
+        class="logo-adalab"
+      />
+    </a>
+
+    </div>
+</footer>
+
   </body>
+
 </html>
+
