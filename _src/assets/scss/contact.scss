@@ -56,6 +56,7 @@ section.contact-us {
     max-width: 600px;
   }
 }
+
 /* Estilos de Formulario */
 .form-container {
   margin: 0 15px;
@@ -63,6 +64,9 @@ section.contact-us {
   form {
     margin: 0 auto;
     max-width: 442px;
+    @media all and (min-width: 1200px) {
+      max-width: 601px;
+    }
     .name-container {
       font-size: 14px;
       color: #54585a;
@@ -99,29 +103,46 @@ section.contact-us {
       content: "\02a";
       color: #14d9c4;
     }
-    .mail-container,
+
+    .mail-container {
+      label {
+        font-size: 14px;
+        color: #54585a;
+        &::after {
+          content: "\02a";
+          color: #14d9c4;
+        }
+      }
+      @media all and (min-width: 1200px) {
+        display: inline-block;
+        width: 60%;
+      }
+    }
     .tel-container {
+      @media all and (min-width: 1200px) {
+        width: 35%;
+        float: right;
+        &::after {
+          clear: both;
+        }
+      }
       label {
         font-size: 14px;
         color: #54585a;
       }
-    }
-    .mail-container label::after {
-      content: "\02a";
-      color: #14d9c4;
     }
     .message-container {
       area {
         height: 105px;
         overflow: auto;
       }
-    }
-    .message-container label {
-      font-size: 14px;
-      color: #54585a;
-      &::after {
-        content: "\02a";
-        color: #14d9c4;
+      label {
+        font-size: 14px;
+        color: #54585a;
+        &::after {
+          content: "\02a";
+          color: #14d9c4;
+        }
       }
     }
     .button-container {
@@ -131,6 +152,25 @@ section.contact-us {
       background-color: #099d8d;
       &:hover {
         background-color: #14d9c4;
+      }
+      @media all and (min-width: 768px) {
+        width: 278px;
+        margin-top: 17px;
+        float: right;
+        &::after {
+          clear: both;
+          display: block;
+        }
+      }
+      @media all and (min-width: 1200px) {
+        width: 278px;
+        float: right;
+        margin-top: 17px;
+        margin-bottom: 120px;
+        &::after {
+          clear: both;
+          display: block;
+        }
       }
       button {
         height: 45px;
