@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/contact.css" />
   </head>
   <body>
@@ -20,14 +17,12 @@
         </p>
 
         <p class="text-small">
-          <small
-            >Todos los campos marcados con <span class="color">*</span> son
-            obligatorios</small
-          >
+          <small>Todos los campos marcados con <span class="color">*</span> son obligatorios</small>
         </p>
       </div>
-          <!-- ubicacion formulario -->
-    <div class="form-container">
+    </section>
+    <!-- ubicacion formulario -->
+    <section class="form-container">
       <form action="https://formspree.io/griselmatosm@gmail.com" method="POST">
         <div class="name-container">
           <label class="form-name" for="fullname"> Nombre completo </label>
@@ -42,25 +37,18 @@
           <input class="input-form" type="tel" name="phone" id="phone" placeholder="Ej: 123456789" />
         </div>
 
-          <div class="message-container">
-            <label class="form-message" for="message"> Mensaje </label>
-            <textarea class="message-area"
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-              placeholder="¿Qué necesitas?"
-              required
-            ></textarea>
-          </div>
-          <div class="button-container">
-            <button type="submit">
-              Enviar
-            </button>
-          </div>
-        </form>
-      </div>
+        <div class="message-container">
+          <label class="form-message" for="message"> Mensaje </label>
+          <textarea class="message-area" name="message" id="message" cols="30" rows="10" placeholder="¿Qué necesitas?" required></textarea>
+        </div>
+        <div class="button-container">
+          <button type="submit">
+            Enviar
+          </button>
+        </div>
+      </form>
     </section>
+    <div style="clear: both"></div>
 
     <partial src="_footer.html"></partial>
   </body>

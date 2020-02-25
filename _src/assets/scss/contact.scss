@@ -157,20 +157,12 @@ section.contact-us {
         width: 278px;
         margin-top: 17px;
         float: right;
-        &::after {
-          clear: both;
-          display: block;
-        }
       }
       @media all and (min-width: 1200px) {
         width: 278px;
         float: right;
         margin-top: 17px;
         margin-bottom: 120px;
-        &::after {
-          clear: both;
-          display: block;
-        }
       }
       button {
         height: 45px;
