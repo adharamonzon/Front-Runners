@@ -91,17 +91,9 @@
     width: 18px;
     height: 18px;
     text-align: $textCenter;
-    animation: rotation 3s linear infinite;
+    transition: ease 3s;
     &:hover {
       transform: rotate(360deg);
-    }
-  }
-  @keyframes rotation {
-    0% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate (360deg);
     }
   }
 }
