@@ -16,7 +16,6 @@
   background: url("../images/frontrunners-team-contact2.jpg") center center no-repeat;
   background-size: cover;
   height: 300px;
-  /* position: relative; */
 }
 .slogan {
   display: none;
@@ -31,7 +30,6 @@ section.contact-us {
   line-height: 24px;
   font-family: "Open-sans", sans-serif;
   max-width: 442px;
-  margin-bottom: 58px;
 }
 .info-contact h2 {
   margin-bottom: 15px;
@@ -60,7 +58,6 @@ section.contact-us {
 /* Estilos de Formulario */
 .form-container {
   margin: 0 15px;
-  border: 1px solid red;
   form {
     margin: 0 auto;
     max-width: 442px;
