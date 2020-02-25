@@ -57,162 +57,91 @@ section.contact-us {
   }
 }
 /* Estilos de Formulario */
-
 .form-container {
-  padding: 0;
-  margin: 0 auto;
-  max-width: 601px;
-  label,
-  input {
-    font-family: "Open-sans", sans-serif;
-  }
-  .input-form,
-  .message-area,
-  .button-container {
-    padding-top: 11px;
-    padding-left: 15px;
-    padding-bottom: 16px;
-    width: 290px;
-    &:focus {
-      outline-color: #099d8d;
+  margin: 0 15px;
+  border: 1px solid red;
+  form {
+    margin: 0 auto;
+    max-width: 442px;
+    .name-container {
+      font-size: 14px;
+      color: #54585a;
     }
-  }
-  .name-container {
-    display: inline-block;
-    font-size: 14px;
-    color: #54585a;
-    margin-bottom: 7px;
-    .input-form {
+    label,
+    input,
+    textarea,
+    button {
       display: block;
-      height: 45px;
-      margin-top: 7px;
+      width: 100%;
+      font-family: "Open-sans", sans-serif;
     }
-    .form-name:after {
-      content: "\02a";
-      color: #14d9c4;
-    }
-  }
-  .mail-container {
-    .input-form {
-      display: inline-block;
-      height: 45px;
+    input,
+    textarea {
+      margin: 7px 0 13px 0;
+      padding: 10px 15px;
+      &:focus {
+        outline-color: #099d8d;
+      }
       &::placeholder {
         font-family: "Open-sans", sans-serif;
         font-size: 16px;
+        color: #b8b8b9;
+      }
+    }
+    .name-container,
+    .mail-container,
+    .tel-container {
+      input {
+        height: 45px;
+      }
+    }
+    .name-container label:after {
+      content: "\02a";
+      color: #14d9c4;
+    }
+    .mail-container,
+    .tel-container {
+      label {
+        font-size: 14px;
         color: #54585a;
       }
     }
-  }
-  .form-mail {
-    display: block;
-    font-size: 14px;
-    color: #54585a;
-    margin-top: 13px;
-    margin-bottom: 7px;
-  }
-  .tel-container {
-    .input-form {
-      display: block;
-      height: 45px;
-    }
-    .form-tel {
-      display: block;
-      font-size: 14px;
-      color: #54585a;
-      padding-top: 13px;
-      margin-bottom: 7px;
-      &::after {
-        content: "\02a";
-        color: #14d9c4;
-      }
-    }
-  }
-  .message-container {
-    .form-message {
-      display: block;
-      font-size: 14px;
-      color: #54585a;
-      margin-top: 13px;
-      margin-bottom: 7px;
-      &::after {
-        content: "\02a";
-        color: #14d9c4;
-      }
-    }
-    .message-area {
-      display: block;
-      height: 105px;
-      overflow: auto;
-    }
-  }
-  .button-container {
-    margin-top: 30px;
-    margin-bottom: 60px;
-    height: 45px;
-    border-radius: 4px;
-    background-color: #099d8d;
-    &:hover {
-      background-color: #14d9c4;
-    }
-    & button {
-      width: 100%;
-      height: 100%;
-      background: none;
-      border: none;
-      color: white;
-      cursor: pointer;
-      text-transform: uppercase;
-    }
-  }
-}
-
-@media all and (min-width: 768px) {
-  .form-container {
-    margin: 0 163px;
-    .input-form,
-    .message-area {
-      width: 442px;
-    }
-    .button-container {
-      width: 206px;
-      margin-left: 235px;
-    }
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .form-container {
-    /*   margin: 0 300px; */
-    margin: 0 auto;
-    .mail-container,
-    .tel-container {
-      display: inline-block;
-    }
-    .name-container {
-      .input-form {
-        width: 601px;
-      }
-    }
-    .mail-container {
-      .input-form {
-        width: 395px;
-      }
-    }
-    .tel-container {
-      margin-left: 40px;
-      .input-form {
-        width: 162px;
-      }
+    .mail-container label::after {
+      content: "\02a";
+      color: #14d9c4;
     }
     .message-container {
-      .message-area {
-        width: 601px;
+      area {
+        height: 105px;
+        overflow: auto;
+      }
+    }
+    .message-container label {
+      font-size: 14px;
+      color: #54585a;
+      &::after {
+        content: "\02a";
+        color: #14d9c4;
       }
     }
     .button-container {
-      width: 278px;
-      margin-left: 324px;
+      margin-top: 30px;
+      margin-bottom: 60px;
+      border-radius: 4px;
+      background-color: #099d8d;
+      &:hover {
+        background-color: #14d9c4;
+      }
+      button {
+        height: 45px;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
     }
   }
 }
+
 @import "components/_footer";
