@@ -10,6 +10,10 @@
 .tools-icon {
   width: 70px;
   height: 70px;
+  transition: ease 3s;
+  &:hover {
+    transform: rotate(360deg);
+  }
 }
 .tools-title {
   grid-column: span 3;
