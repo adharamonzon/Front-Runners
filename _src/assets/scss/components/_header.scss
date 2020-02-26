@@ -22,7 +22,7 @@
     }
     .name-team {
       text-align: $textCenter;
-      padding: 15px 0px;
+      padding: 8px 0px;
       background-color: rgba(9, 157, 141, 0.9);
       @media all and (min-width: 768px) {
         text-align: left;
@@ -40,6 +40,10 @@
           line-height: 30px;
           color: white;
           text-decoration: none;
+          img {
+            width: 50px;
+            vertical-align: middle;
+          }
         }
       }
     }

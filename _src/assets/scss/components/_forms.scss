@@ -21,7 +21,7 @@
     input,
     textarea {
       margin: 7px 0 13px 0;
-      padding: 10px 15px;
+      padding: 15px;
       &:focus {
         outline-color: #099d8d;
       }
@@ -31,13 +31,13 @@
         color: #b8b8b9;
       }
     }
-    .name-container,
+    /* .name-container,
     .mail-container,
     .tel-container {
       input {
         height: 45px;
       }
-    }
+    } */
     .name-container label:after {
       content: "\02a";
       color: #14d9c4;
