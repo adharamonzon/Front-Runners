@@ -12,7 +12,6 @@
     position: fixed;
     width: 100%;
     z-index: 200;
-    /*  */
     @media all and (min-width: 768px) {
       display: flex;
       align-items: center;
@@ -34,14 +33,14 @@
       }
       .uppercase {
         text-transform: $textUppercase;
-        a {
+        .link-logo {
           font-family: $fontText-01;
           font-size: 1rem;
           line-height: 30px;
           color: white;
           text-decoration: none;
-          img {
-            width: 50px;
+          .img-logo {
+            width: 40px;
             vertical-align: middle;
           }
         }
@@ -65,7 +64,7 @@
     }
 
     li.menu {
-      a {
+      .menu-link {
         color: white;
         font-family: $fontText-01;
         font-size: 0.9rem;
@@ -74,8 +73,15 @@
         line-height: 30px;
         text-transform: $textUppercase;
         padding: 10px 8px;
+        transition: background-color ease 2s;
         &:hover {
-          background-color: rgba(20, 217, 196, 0.9);
+          background-color: rgba(9, 157, 141, 0.9);
+        }
+        @media all and (min-width: 768px) {
+          transition: background-color ease 2s;
+          &:hover {
+            background-color: rgba(20, 217, 196, 0.9);
+          }
         }
       }
     }
