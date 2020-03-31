@@ -1,4 +1,4 @@
-![Adalab](_src/assets/images/logo-adalab-80px.png)
+![Equupo Front-runners](_src/assets/images/frontrunners-team.jpg)
 
 # Front-runners
 
